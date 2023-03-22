@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_YmRpgHmREe2LqKx8duSOsA" name="projet_coo_totoum_ishimwe_diallo">
+    <eAnnotations xmi:id="_Y7lLIHmREe2LqKx8duSOsA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Y7lLIXmREe2LqKx8duSOsA" source="codegen">
+        <details xmi:id="_Y7lLInmREe2LqKx8duSOsA" key="codegenDirectory" value="/projet_coo_totoum_ishimwe_diallo/src"/>
+        <details xmi:id="_aIYVcHmREe2LqKx8duSOsA" key="AssociatedSourceCode" value="/projet_coo_totoum_ishimwe_diallo/src/observer/MatchObserver.java;1132570580/1;/projet_coo_totoum_ishimwe_diallo/src/observer/Journalist.java;2779216100/1;/projet_coo_totoum_ishimwe_diallo/src/competition/League.java;1770049961/1;/projet_coo_totoum_ishimwe_diallo/src/match/RandomMatch.java;783722381/1;/projet_coo_totoum_ishimwe_diallo/src/competition/Tournament.java;2651017354/1;/projet_coo_totoum_ishimwe_diallo/src/competitor/Competitor.java;3433287846/1;/projet_coo_totoum_ishimwe_diallo/src/exception/NotPowerOfTwoException.java;1896696301/1;/projet_coo_totoum_ishimwe_diallo/src/mainCompetitions/CompetitionMain.java;2907714405/1;/projet_coo_totoum_ishimwe_diallo/src/mainCompetitions/MasterMain.java;1294790325/1;/projet_coo_totoum_ishimwe_diallo/src/match/InterfaceMatch.java;2844614703/1;/projet_coo_totoum_ishimwe_diallo/src/match/Match.java;1406298044/1;/projet_coo_totoum_ishimwe_diallo/src/competition/Master.java;4181992849/1;/projet_coo_totoum_ishimwe_diallo/src/observer/Bookmaker.java;3139868363/1;/projet_coo_totoum_ishimwe_diallo/src/competition/GroupStage.java;1920747276/1;/projet_coo_totoum_ishimwe_diallo/src/competition/Competition.java;175468682/1;/projet_coo_totoum_ishimwe_diallo/src/select/FirstSelected.java;3137322196/1;/projet_coo_totoum_ishimwe_diallo/src/select/Selection.java;58844274/1;/projet_coo_totoum_ishimwe_diallo/src/util/MapUtil.java;1046893634/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ZW9fkHmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-GoHmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-GoXmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-GonmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-Go3mREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-GpHmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-GpXmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-tsHmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ZW-tsXmREe2LqKx8duSOsA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXGpgHmREe2LqKx8duSOsA" name="competitor">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zblg4HmREe2LqKx8duSOsA" name="Competitor">
+        <ownedComment xmi:id="_Z8ICIXmREe2LqKx8duSOsA">
+          <body>A class to represent the competitor</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Z6EzsHmREe2LqKx8duSOsA" name="name" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7iMQHmREe2LqKx8duSOsA" name="Competitor" specification="_ZbpLQHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7iMQXmREe2LqKx8duSOsA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z7iMQnmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7iMQ3mREe2LqKx8duSOsA" name="toString" specification="_ZbvR4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7iMRHmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.name;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7izUHmREe2LqKx8duSOsA" name="equals" specification="_Z4v-AHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7izUXmREe2LqKx8duSOsA" name="o" type="_Z4uv4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7izUnmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if ( !(o instanceof Competitor) )
+			return false;
+		Competitor other = (Competitor) o;
+		return this.name.equals(other.getName());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7izU3mREe2LqKx8duSOsA" name="hashCode" specification="_Zbv48HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7izVHmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return ((this.name == null) ? 0 : this.name.hashCode());
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZbpLQHmREe2LqKx8duSOsA" name="Competitor" method="_Z7iMQHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_ZbuDwHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Zbuq0HmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ZbpLQXmREe2LqKx8duSOsA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Zbuq0XmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZbvR4HmREe2LqKx8duSOsA" name="toString" method="_Z7iMQ3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZbvR4XmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zbv48HmREe2LqKx8duSOsA" name="hashCode" method="_Z7izU3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Zbv48XmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4v-AHmREe2LqKx8duSOsA" name="equals" method="_Z7izUHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4v-AXmREe2LqKx8duSOsA" name="o" type="_Z4uv4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z42EoHmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXKT4HmREe2LqKx8duSOsA" name="observer">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ZaTHcHmREe2LqKx8duSOsA" name="MatchObserver">
+        <ownedOperation xmi:id="_Z2EdcHmREe2LqKx8duSOsA" name="followMatch">
+          <ownedParameter xmi:id="_Z2FEgHmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2FEgXmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZaetoHmREe2LqKx8duSOsA" name="Journalist">
+        <interfaceRealization xmi:id="_Z2LLIHmREe2LqKx8duSOsA" client="_ZaetoHmREe2LqKx8duSOsA" supplier="_ZaTHcHmREe2LqKx8duSOsA" contract="_ZaTHcHmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7H8kHmREe2LqKx8duSOsA" name="followMatch" specification="_Z2RRwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7H8kXmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7H8knmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>System.out.println(&quot; --------------------------this is a journalist------------  &quot;);&#xD;
+		System.out.println(&quot; winner is   : &quot;+ c1.getName()+ &quot; the loser is   &quot;+c2.getName());&#xD;
+&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Z2RRwHmREe2LqKx8duSOsA" name="followMatch" method="_Z7H8kHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z2R40HmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2R40XmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZdIZAHmREe2LqKx8duSOsA" name="Bookmaker">
+        <ownedAttribute xmi:id="_Z6QZ4HmREe2LqKx8duSOsA" name="competitorsOdds" visibility="protected" type="_Z2TuAHmREe2LqKx8duSOsA" association="_Z96K0HmREe2LqKx8duSOsA"/>
+        <interfaceRealization xmi:id="_Z3nVkHmREe2LqKx8duSOsA" client="_ZdIZAHmREe2LqKx8duSOsA" supplier="_ZaTHcHmREe2LqKx8duSOsA" contract="_ZaTHcHmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z72VUHmREe2LqKx8duSOsA" name="Bookmaker" specification="_ZdJAEHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z72VUXmREe2LqKx8duSOsA" type="_ZdIZAHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>this.competitorsOdds = new HashMap&lt;Competitor,Integer>();&#xD;
+	    </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z72VUnmREe2LqKx8duSOsA" name="followMatch" specification="_Z3n8oHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z72VU3mREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z72VVHmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>int loserOdds = this.competitorsOdds.get(c2);&#xD;
+	     &#xD;
+	        this.competitorsOdds.put(c2, (loserOdds+1));&#xD;
+	        int winnerOds = this.competitorsOdds.get(c1);&#xD;
+	        if(winnerOds != 1){&#xD;
+	            this.competitorsOdds.put(c1, (winnerOds-1));&#xD;
+	        }&#xD;
+	        &#xD;
+	        System.out.println(&quot;---------------this is the bookmaker ods------------ &quot;);&#xD;
+	        &#xD;
+	        System.out.println(&quot;The winner  : &quot;+c1.getName()+&quot; (ods : &quot;+ this.competitorsOdds.get(c1) +&quot;) the loser is &quot;+c2.getName()+&quot; (ods : &quot;+ this.competitorsOdds.get(c2) +&quot;).&quot;);&#xD;
+&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z728YHmREe2LqKx8duSOsA" name="getCompetitorsOdds" specification="_ZdKOMHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z728YXmREe2LqKx8duSOsA" type="_Z2TuAHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return this.competitorsOdds;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z728YnmREe2LqKx8duSOsA" name="addCompetitorsOdds" specification="_Z5dIoXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z728Y3mREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>for(Competitor c : comp){&#xD;
+	            this.competitorsOdds.put(c, 1);&#xD;
+	        }&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZdJAEHmREe2LqKx8duSOsA" name="Bookmaker" method="_Z72VUHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_ZdJnIHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ZdJnIXmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ZdJnInmREe2LqKx8duSOsA" type="_ZdIZAHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZdKOMHmREe2LqKx8duSOsA" name="getCompetitorsOdds" method="_Z728YHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z5dIoHmREe2LqKx8duSOsA" type="_Z2TuAHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3n8oHmREe2LqKx8duSOsA" name="followMatch" method="_Z72VUnmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z3n8oXmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3n8onmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5dIoXmREe2LqKx8duSOsA" name="addCompetitorsOdds" method="_Z728YnmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8TBQXmREe2LqKx8duSOsA">
+            <body>add the list of competitors to the HashMap&lt;Competitor, Integer> and start at 1 as rate&#xD;
+     * @param comp CompetitorList&#xD;
+     *</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5dIonmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z96K0HmREe2LqKx8duSOsA" name="" memberEnd="_Z96K0XmREe2LqKx8duSOsA _Z6QZ4HmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z96K0XmREe2LqKx8duSOsA" name="" type="_ZdIZAHmREe2LqKx8duSOsA" association="_Z96K0HmREe2LqKx8duSOsA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXWhIHmREe2LqKx8duSOsA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZXXIMHmREe2LqKx8duSOsA" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ZXXvQHmREe2LqKx8duSOsA" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Z2eGEXmREe2LqKx8duSOsA" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z2TuAHmREe2LqKx8duSOsA" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Z2YmgHmREe2LqKx8duSOsA" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Z2c38HmREe2LqKx8duSOsA" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z2nQAHmREe2LqKx8duSOsA" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z2vy4HmREe2LqKx8duSOsA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z28AIHmREe2LqKx8duSOsA" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z4GdwHmREe2LqKx8duSOsA" name="Collections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Z4IS8XmREe2LqKx8duSOsA" name="Comparator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z4NLcHmREe2LqKx8duSOsA" name="LinkedHashMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z45H8HmREe2LqKx8duSOsA" name="MatchObserverInterface"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZYd7cHmREe2LqKx8duSOsA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z3Ct0HmREe2LqKx8duSOsA" name="Integer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z4uv4HmREe2LqKx8duSOsA" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z43SwHmREe2LqKx8duSOsA" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXXvQXmREe2LqKx8duSOsA" name="match">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Za16AHmREe2LqKx8duSOsA" name="RandomMatch">
+        <ownedComment xmi:id="_Z8HbEXmREe2LqKx8duSOsA">
+          <body>In this class, the winner of a match is obtained randomly</body>
+        </ownedComment>
+        <generalization xmi:id="_Z2vL0HmREe2LqKx8duSOsA" general="_ZcNL8HmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7YbQnmREe2LqKx8duSOsA" name="RandomMatch" specification="_Z2sIgHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7YbQ3mREe2LqKx8duSOsA" name="competition" type="_Zdtn0HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7YbRHmREe2LqKx8duSOsA" type="_Za16AHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(competition);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7ZCUHmREe2LqKx8duSOsA" name="chooseWinner" specification="_Z2tWoHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7ZCUXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7ZCUnmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7ZCU3mREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>Random alea = new Random();
+		return alea.nextDouble() &lt;= 0.5 ? a : b;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Z2sIgHmREe2LqKx8duSOsA" name="RandomMatch" method="_Z7YbQnmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z2svkHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z2svkXmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Z2sIgXmREe2LqKx8duSOsA" name="competition" type="_Zdtn0HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2svknmREe2LqKx8duSOsA" type="_Za16AHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z2tWoHmREe2LqKx8duSOsA" name="chooseWinner" method="_Z7ZCUHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z2tWoXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2t9sHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2t9sXmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ZcEpEHmREe2LqKx8duSOsA" name="InterfaceMatch">
+        <ownedAttribute xmi:id="_ZcF3MHmREe2LqKx8duSOsA" name="observers" type="_Z45H8HmREe2LqKx8duSOsA" isOrdered="true" association="_Z8JQQHmREe2LqKx8duSOsA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcGeQHmREe2LqKx8duSOsA" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Z3EjAHmREe2LqKx8duSOsA" name="Versus">
+          <ownedParameter xmi:id="_Z3FKEHmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3FKEXmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3FxIHmREe2LqKx8duSOsA" name="observate">
+          <ownedParameter xmi:id="_Z3FxIXmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3FxInmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z46WEHmREe2LqKx8duSOsA" name="addObserver">
+          <ownedParameter xmi:id="_Z46WEXmREe2LqKx8duSOsA" name="o" type="_Z45H8HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZcNL8HmREe2LqKx8duSOsA" name="Match" isAbstract="true">
+        <ownedComment xmi:id="_Z8J3UXmREe2LqKx8duSOsA">
+          <body>There can be different types of matches.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Z6FawHmREe2LqKx8duSOsA" name="competition" visibility="protected" type="_Zdtn0HmREe2LqKx8duSOsA" association="_Z9WxMHmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6Go4XmREe2LqKx8duSOsA" name="observers" visibility="protected" type="_ZaTHcHmREe2LqKx8duSOsA" isOrdered="true" association="_Z9xn8HmREe2LqKx8duSOsA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6Go4nmREe2LqKx8duSOsA" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7qvIHmREe2LqKx8duSOsA" name="Match" specification="_Z3KCkHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7qvIXmREe2LqKx8duSOsA" name="competition" type="_Zdtn0HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7qvInmREe2LqKx8duSOsA" type="_ZcNL8HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>this.competition = competition;&#xD;
+		this.observers=new ArrayList&lt;MatchObserver>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7r9QHmREe2LqKx8duSOsA" name="getCompetition" specification="_ZcPBIHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7r9QXmREe2LqKx8duSOsA" type="_Zdtn0HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return this.competition;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7r9QnmREe2LqKx8duSOsA" name="playMatch" specification="_Z3Me03mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7r9Q3mREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7r9RHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>Competitor winner = this.chooseWinner(a, b);&#xD;
+		&#xD;
+		&#xD;
+		this.competition.addPoints(winner);&#xD;
+		&#xD;
+		System.out.println(a + &quot; vs &quot; + b + &quot; --> &quot; + winner + &quot; wins!&quot;);&#xD;
+&#xD;
+&#xD;
+		if(winner.equals(a)) {&#xD;
+&#xD;
+         this.observate(a,b);&#xD;
+&#xD;
+		}else {&#xD;
+&#xD;
+         this.observate(b,a);&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7skUHmREe2LqKx8duSOsA" name="observate" specification="_Z3Ns8HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7skUXmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7skUnmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>for(MatchObserver o : this.observers){&#xD;
+     	&#xD;
+         o.followMatch(c1,c2);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7skU3mREe2LqKx8duSOsA" name="addObserver" specification="_Z3OUAHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7skVHmREe2LqKx8duSOsA" name="o" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.observers.add(o);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7skVXmREe2LqKx8duSOsA" name="getMatchObserver" specification="_ZcWV4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7tLYHmREe2LqKx8duSOsA" type="_ZaTHcHmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z7tLYXmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.observers;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7yq8HmREe2LqKx8duSOsA" name="removeObserver" specification="_Z3O7EHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7yq8XmREe2LqKx8duSOsA" name="o" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.observers.remove(o);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZcPBIHmREe2LqKx8duSOsA" name="getCompetition" method="_Z7r9QHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z3Me0nmREe2LqKx8duSOsA" type="_Zdtn0HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZcWV4HmREe2LqKx8duSOsA" name="getMatchObserver" method="_Z7skVXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZcWV4XmREe2LqKx8duSOsA" type="_ZaTHcHmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcWV4nmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3KCkHmREe2LqKx8duSOsA" name="Match" method="_Z7qvIHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z3L3wHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z3Me0HmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Z3KCkXmREe2LqKx8duSOsA" name="competition" type="_Zdtn0HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3Me0XmREe2LqKx8duSOsA" type="_ZcNL8HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3Me03mREe2LqKx8duSOsA" name="playMatch" method="_Z7r9QnmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8J3UnmREe2LqKx8duSOsA">
+            <body>A winner is chosen and earns points.&#xD;
+	 * A description of the match is displayed.&#xD;
+	 * @param a one competitor&#xD;
+	 * @param b another competitor</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3NF4HmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3NF4XmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3Ns8HmREe2LqKx8duSOsA" name="observate" method="_Z7skUHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8J3U3mREe2LqKx8duSOsA">
+            <body>.&#xD;
+     * @param c1 Competitor 1&#xD;
+     * @param c2 Competitor 2</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3Ns8XmREe2LqKx8duSOsA" name="c1" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3Ns8nmREe2LqKx8duSOsA" name="c2" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3OUAHmREe2LqKx8duSOsA" name="addObserver" method="_Z7skU3mREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8OIwHmREe2LqKx8duSOsA">
+            <body>add &#xD;
+     * @param o match observer</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3OUAXmREe2LqKx8duSOsA" name="o" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3O7EHmREe2LqKx8duSOsA" name="removeObserver" method="_Z7yq8HmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8OIwXmREe2LqKx8duSOsA">
+            <body>remove &#xD;
+     * @param o match observer</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3O7EXmREe2LqKx8duSOsA" name="o" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3O7EnmREe2LqKx8duSOsA" name="chooseWinner" isAbstract="true">
+          <ownedParameter xmi:id="_Z3O7E3mREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3O7FHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3SlcHmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z8JQQHmREe2LqKx8duSOsA" name="" memberEnd="_ZcF3MHmREe2LqKx8duSOsA _Z8J3UHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z8J3UHmREe2LqKx8duSOsA" name="" type="_ZcEpEHmREe2LqKx8duSOsA" association="_Z8JQQHmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9WxMHmREe2LqKx8duSOsA" name="" memberEnd="_Z9WxMXmREe2LqKx8duSOsA _Z6FawHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9WxMXmREe2LqKx8duSOsA" name="" type="_ZcNL8HmREe2LqKx8duSOsA" association="_Z9WxMHmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9xn8HmREe2LqKx8duSOsA" name="" memberEnd="_Z9xn8XmREe2LqKx8duSOsA _Z6Go4XmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9xn8XmREe2LqKx8duSOsA" name="" type="_ZcNL8HmREe2LqKx8duSOsA" association="_Z9xn8HmREe2LqKx8duSOsA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXXvQnmREe2LqKx8duSOsA" name="util">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZeMI8HmREe2LqKx8duSOsA" name="MapUtil">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8E-0HmREe2LqKx8duSOsA" name="sortByDescendingValue" specification="_Z52KMHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8E-0XmREe2LqKx8duSOsA" name="map" type="_Z2c38HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z8E-0nmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>List&lt;Entry&lt;K, V>> sortedEntries = new ArrayList&lt;Entry&lt;K, V>>(map.entrySet());
+
+     Collections.sort(sortedEntries, new Comparator&lt;Entry&lt;K, V>>() {
+         @Override
+         public int compare(Entry&lt;K, V> e1, Entry&lt;K, V> e2) {
+             return e2.getValue().compareTo(e1. getValue());
+         }
+     });
+
+     Map&lt;K, V> result = new LinkedHashMap&lt;>();
+
+     for (Entry&lt;K, V> entry : sortedEntries ) {
+         result.put(entry.getKey(), entry.getValue());
+     }
+     return result ;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Z52KMHmREe2LqKx8duSOsA" name="sortByDescendingValue" isStatic="true" method="_Z8E-0HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z56boHmREe2LqKx8duSOsA" name="map" type="_Z2c38HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z58Q0HmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZXd14HmREe2LqKx8duSOsA" name="competition">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zai_EHmREe2LqKx8duSOsA" name="League">
+        <ownedComment xmi:id="_Z8HbEHmREe2LqKx8duSOsA">
+          <body>Leagues are played in two-legged matches</body>
+        </ownedComment>
+        <generalization xmi:id="_Z2mB4HmREe2LqKx8duSOsA" general="_Zdtn0HmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7XNIHmREe2LqKx8duSOsA" name="League" specification="_Z4YxoHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7XNIXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7XNInmREe2LqKx8duSOsA" type="_Zai_EHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(competitors); 
+		this.match = new RandomMatch(this);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7XNI3mREe2LqKx8duSOsA" name="play" specification="_Z4bN4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7XNJHmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>for(Competitor a : competitors) {
+			for(Competitor b : competitors) {
+				if ( !(a.equals(b)) ) {
+					this.playMatch(a,b);
+				}
+			}
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7X0MHmREe2LqKx8duSOsA" name="playMatch" specification="_Z2kMsHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7X0MXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7X0MnmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.match.playMatch(a,b);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7X0M3mREe2LqKx8duSOsA" name="Ranking" specification="_ZaoeoHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7X0NHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7X0NXmREe2LqKx8duSOsA" name="affichage" specification="_ZaxBgHmREe2LqKx8duSOsA">
+          <language>java</language>
+          <body>Map &lt;Competitor,Integer> temp = MapUtil.sortByDescendingValue(this.getPoints());
+		for (Entry&lt;Competitor,Integer> entry: temp.entrySet())
+			System.out.println(entry.getKey().getName() + &quot; - &quot; + this.points.get(entry.getKey()));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7YbQHmREe2LqKx8duSOsA" name="toString" specification="_ZaxokHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7YbQXmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;league&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZaoeoHmREe2LqKx8duSOsA" name="Ranking" method="_Z7X0M3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4ccAHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZaxBgHmREe2LqKx8duSOsA" name="affichage" method="_Z7X0NXmREe2LqKx8duSOsA"/>
+        <ownedOperation xmi:id="_ZaxokHmREe2LqKx8duSOsA" name="toString" method="_Z7YbQHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZaxokXmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z2kMsHmREe2LqKx8duSOsA" name="playMatch" method="_Z7X0MHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z2kMsXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z2kzwHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4YxoHmREe2LqKx8duSOsA" name="League" method="_Z7XNIHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z4ZYsHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z4Z_wHmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Z4YxoXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4Z_wXmREe2LqKx8duSOsA" type="_Zai_EHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4bN4HmREe2LqKx8duSOsA" name="play" method="_Z7XNI3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4bN4XmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Za-c4HmREe2LqKx8duSOsA" name="Tournament">
+        <ownedComment xmi:id="_Z8ICIHmREe2LqKx8duSOsA">
+          <body>Direct elimination tournaments are held over several rounds.</body>
+        </ownedComment>
+        <generalization xmi:id="_Z2480HmREe2LqKx8duSOsA" general="_Zdtn0HmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6C-gHmREe2LqKx8duSOsA" name="winner" visibility="package" type="_Zblg4HmREe2LqKx8duSOsA" association="_Z9UU8HmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7ZCVHmREe2LqKx8duSOsA" name="Tournament" specification="_Z4gtcHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7ZCVXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7ZCVnmREe2LqKx8duSOsA" type="_Za-c4HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(competitors);&#xD;
+		this.match = new RandomMatch(this);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7ZpYHmREe2LqKx8duSOsA" name="playOneRound" specification="_Z4iioHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7ZpYXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7ZpYnmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z7ZpY3mREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// A temporary list to keep the winner of each match&#xD;
+		List&lt;Competitor> temporary = new ArrayList&lt;>();&#xD;
+&#xD;
+		for(int i = 0; i &lt; competitors.size() - 1; i += 2) {&#xD;
+			Competitor c1 = competitors.get(i);&#xD;
+			Competitor c2 = competitors.get(i+1) ;&#xD;
+			this.playMatch(c1, c2);&#xD;
+			// The winner is the player with the highest score&#xD;
+			Competitor winner = this.points.get(c1) >= this.points.get(c2) ? c1 : c2;&#xD;
+			if (competitors.size() == 2)&#xD;
+				this.winner = winner;&#xD;
+			// We add the winner to the temporary list&#xD;
+			temporary.add(winner);&#xD;
+		}&#xD;
+		return temporary;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7eh4HmREe2LqKx8duSOsA" name="playTournament" specification="_Z4kX0HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7gXEHmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>if ( powerOfTwo(competitors.size()) ) {&#xD;
+			List&lt;Competitor> provisory = this.playOneRound(competitors);&#xD;
+		&#xD;
+			&#xD;
+			playTournament(provisory);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7g-IHmREe2LqKx8duSOsA" name="play" specification="_Z4ll8HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7g-IXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>if ( !powerOfTwo(competitors.size()))&#xD;
+			throw new NotPowerOfTwoException(&quot;The number of players should be a power of two(2).&quot;+competitors.size());&#xD;
+		playTournament(competitors);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7g-InmREe2LqKx8duSOsA" name="playMatch" specification="_Z215gHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7g-I3mREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7g-JHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.match.playMatch(a,b);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7g-JXmREe2LqKx8duSOsA" name="powerOfTwo" specification="_ZbG_wHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7g-JnmREe2LqKx8duSOsA" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z7g-J3mREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (n == 0)&#xD;
+			return false;&#xD;
+&#xD;
+		while(n != 1) {&#xD;
+			if (n % 2 != 0)&#xD;
+				return false;&#xD;
+			n = n/2;&#xD;
+		}&#xD;
+&#xD;
+		return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7hlMHmREe2LqKx8duSOsA" name="toString" specification="_ZbIN4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7hlMXmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;tournament&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7hlMnmREe2LqKx8duSOsA" name="affichage" specification="_ZbI08XmREe2LqKx8duSOsA">
+          <language>java</language>
+          <body>System.out.println(&quot;Winner is &quot; + this.winner.getName());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7hlM3mREe2LqKx8duSOsA" name="Ranking" specification="_ZbI08nmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7hlNHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZbG_wHmREe2LqKx8duSOsA" name="powerOfTwo" isStatic="true" method="_Z7g-JXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZbHm0HmREe2LqKx8duSOsA" name="n">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ZbHm0XmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZbIN4HmREe2LqKx8duSOsA" name="toString" method="_Z7hlMHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZbI08HmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZbI08XmREe2LqKx8duSOsA" name="affichage" method="_Z7hlMnmREe2LqKx8duSOsA"/>
+        <ownedOperation xmi:id="_ZbI08nmREe2LqKx8duSOsA" name="Ranking" method="_Z7hlM3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4qecHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z215gHmREe2LqKx8duSOsA" name="playMatch" method="_Z7g-InmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z215gXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z23HoHmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4gtcHmREe2LqKx8duSOsA" name="Tournament" method="_Z7ZCVHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z4gtcnmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z4gtc3mREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Z4gtcXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4gtdHmREe2LqKx8duSOsA" type="_Za-c4HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4iioHmREe2LqKx8duSOsA" name="playOneRound" method="_Z7ZpYHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4iioXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4jJsHmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z4jJsXmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4kX0HmREe2LqKx8duSOsA" name="playTournament" method="_Z7eh4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4kX0XmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4ll8HmREe2LqKx8duSOsA" name="play" method="_Z7g-IHmREe2LqKx8duSOsA" raisedException="_Zb30wHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4ll8XmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zch8EHmREe2LqKx8duSOsA" name="Master">
+        <ownedComment xmi:id="_Z8OIwnmREe2LqKx8duSOsA">
+          <body>import select.*;*</body>
+        </ownedComment>
+        <generalization xmi:id="_Z3gn4HmREe2LqKx8duSOsA" general="_Zdtn0HmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6H3AHmREe2LqKx8duSOsA" name="NbGroup" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6IeEXmREe2LqKx8duSOsA" name="NbComPerGroups" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6IeE3mREe2LqKx8duSOsA" name="selection" visibility="protected" type="_ZeK60HmREe2LqKx8duSOsA" association="_Z9zdIHmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6JsMXmREe2LqKx8duSOsA" name="groupStage" visibility="protected" type="_ZdZewHmREe2LqKx8duSOsA" association="_Z91SUHmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6OksXmREe2LqKx8duSOsA" name="tournament" visibility="protected" type="_Za-c4HmREe2LqKx8duSOsA" association="_Z94VoXmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7zSAHmREe2LqKx8duSOsA" name="Master" specification="_Z4_1oHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7zSAXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7zSAnmREe2LqKx8duSOsA" name="selection" type="_ZeK60HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7zSA3mREe2LqKx8duSOsA" name="NbGroup">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z7zSBHmREe2LqKx8duSOsA" name="NbComPerGroups">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z7zSBXmREe2LqKx8duSOsA" type="_Zch8EHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(comp);&#xD;
+    this.selection = selection;&#xD;
+     this.NbGroup = NbGroup;&#xD;
+     this.NbComPerGroups = NbComPerGroups;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7z5EHmREe2LqKx8duSOsA" name="checkNbCompetitor" specification="_Z5I_kHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7z5EXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7z5EnmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return comp.size() == this.NbGroup*this.NbComPerGroups;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7z5E3mREe2LqKx8duSOsA" name="getSelection" specification="_ZcpQ0HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7z5FHmREe2LqKx8duSOsA" type="_ZeK60HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return this.selection;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7z5FXmREe2LqKx8duSOsA" name="setSelection" specification="_Z3YFAHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7z5FnmREe2LqKx8duSOsA" name="newselection" type="_ZeK60HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.selection = newselection;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z70gIHmREe2LqKx8duSOsA" name="setPoint" specification="_Z3YFAnmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z70gIXmREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.points.put(competitor, 0);&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z70gInmREe2LqKx8duSOsA" name="playTournament" specification="_Z5SwkHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z70gI3mREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.tournament = new Tournament(comp);&#xD;
+     &#xD;
+     for(MatchObserver obs: this.match.getMatchObserver() ) {&#xD;
+ 		System.out.println(this.match.getMatchObserver().size());&#xD;
+&#xD;
+ 		this.tournament.getMatch().addObserver(obs);&#xD;
+&#xD;
+     }&#xD;
+    &#xD;
+     this.tournament.play();&#xD;
+    &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z70gJHmREe2LqKx8duSOsA" name="playGroupStage" specification="_Z5UlwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z70gJXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>System.out.println(this.getMatch().getMatchObserver().size());&#xD;
+&#xD;
+     this.groupStage = new GroupStage(comp,this.NbGroup,this.NbComPerGroups, this.getMatch().getMatchObserver());&#xD;
+   &#xD;
+      this.groupStage.play();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z71HMHmREe2LqKx8duSOsA" name="play" specification="_Z5Vz4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z71HMXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>if (this.checkNbCompetitor(comp)){&#xD;
+         this.playGroupStage(comp);&#xD;
+         List&lt;Competitor> selected = this.select();&#xD;
+    &#xD;
+         this.playTournament(selected);&#xD;
+&#xD;
+&#xD;
+     }&#xD;
+     else{&#xD;
+         System.out.println(&quot;Pas assez de participant&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z71HMnmREe2LqKx8duSOsA" name="affichage" specification="_ZcrtEHmREe2LqKx8duSOsA">
+          <language>java</language>
+          <body>System.out.println(&quot;Winner of Master is  &quot;+ this.tournament.winner.getName());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z71HM3mREe2LqKx8duSOsA" name="select" specification="_ZcsUIHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z71HNHmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z71HNXmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.selection.select(this.groupStage);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z71HNnmREe2LqKx8duSOsA" name="Ranking" specification="_Zcs7MHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z71HN3mREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZcpQ0HmREe2LqKx8duSOsA" name="getSelection" method="_Z7z5E3mREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaMnmREe2LqKx8duSOsA">
+            <body>@return the Selection</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3Xd8HmREe2LqKx8duSOsA" type="_ZeK60HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZcrtEHmREe2LqKx8duSOsA" name="affichage" method="_Z71HMnmREe2LqKx8duSOsA"/>
+        <ownedOperation xmi:id="_ZcsUIHmREe2LqKx8duSOsA" name="select" visibility="protected" method="_Z71HM3mREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8TBQHmREe2LqKx8duSOsA">
+            <body>@return List of selected Competitor</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ZcsUIXmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcsUInmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zcs7MHmREe2LqKx8duSOsA" name="Ranking" method="_Z71HNnmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z5YQIHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3YFAHmREe2LqKx8duSOsA" name="setSelection" method="_Z7z5FXmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaM3mREe2LqKx8duSOsA">
+            <body>Set a new Selection if you want to change the selection&#xD;
+     * @param newselection</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z3YFAXmREe2LqKx8duSOsA" name="newselection" type="_ZeK60HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3YFAnmREe2LqKx8duSOsA" name="setPoint" method="_Z70gIHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z3YFA3mREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z3cWcHmREe2LqKx8duSOsA" name="playMatch">
+          <ownedParameter xmi:id="_Z3cWcXmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3cWcnmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z4_1oHmREe2LqKx8duSOsA" name="Master" method="_Z7zSAHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z5CR4HmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z5CR4XmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_Z8SaMHmREe2LqKx8duSOsA">
+            <body>Construct a Master &#xD;
+     * @param comp List&lt;Competitor> the competitor&#xD;
+     * @param selection it's a class which implement the interace select the way to select competitor &#xD;
+     * @param NbGroup number of group for the groupStage&#xD;
+     * @param NbComPerGroups number of Competitor per Group for the groupStage</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z4_1oXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4_1onmREe2LqKx8duSOsA" name="selection" type="_ZeK60HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4_1o3mREe2LqKx8duSOsA" name="NbGroup">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z5BDwHmREe2LqKx8duSOsA" name="NbComPerGroups">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z5CR4nmREe2LqKx8duSOsA" type="_Zch8EHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5I_kHmREe2LqKx8duSOsA" name="checkNbCompetitor" method="_Z7z5EHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaMXmREe2LqKx8duSOsA">
+            <body>@return True if there is enough competitor for the Master else false</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5I_kXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z5I_knmREe2LqKx8duSOsA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5SwkHmREe2LqKx8duSOsA" name="playTournament" visibility="protected" method="_Z70gInmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaNHmREe2LqKx8duSOsA">
+            <body>Create and play a Tournament with the list given in parameter&#xD;
+     * @param comp Competitor's List&#xD;
+     * @throws Exception</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5SwkXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5UlwHmREe2LqKx8duSOsA" name="playGroupStage" visibility="protected" method="_Z70gJHmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaNXmREe2LqKx8duSOsA">
+            <body>Create and play a GroupStage with the list given in parameter&#xD;
+     * @param comp Competitor's List&#xD;
+     * @throws Exception</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5UlwXmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5Vz4HmREe2LqKx8duSOsA" name="play" visibility="protected" method="_Z71HMHmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8SaNnmREe2LqKx8duSOsA">
+            <body>@param comp CompetitorList &#xD;
+     * Before starting Master we will check if there is enough Competitor if not will send a message and nothing will happen, this competition take place in 2 phases, the first one is a groupstage.&#xD;
+     * After groupstage done we will select and the selected competitor will play a tournament and give the winner of this Master.&#xD;
+     * @throws Exception</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5Vz4XmREe2LqKx8duSOsA" name="comp" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZdZewHmREe2LqKx8duSOsA" name="GroupStage">
+        <generalization xmi:id="_Z3yUsnmREe2LqKx8duSOsA" general="_Zdtn0HmREe2LqKx8duSOsA"/>
+        <ownedAttribute xmi:id="_Z6XHkHmREe2LqKx8duSOsA" name="NbGroup" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6XuoXmREe2LqKx8duSOsA" name="NbComParGroups" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6YVsHmREe2LqKx8duSOsA" name="Leagues" visibility="protected" type="_Zai_EHmREe2LqKx8duSOsA" isOrdered="true" association="_Z98AAHmREe2LqKx8duSOsA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6YVsXmREe2LqKx8duSOsA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6Y8wHmREe2LqKx8duSOsA" name="observers" visibility="private" type="_ZaTHcHmREe2LqKx8duSOsA" isOrdered="true" association="_Z991MXmREe2LqKx8duSOsA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6Y8wXmREe2LqKx8duSOsA" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z76mwHmREe2LqKx8duSOsA" name="GroupStage" specification="_Z5fk4HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z76mwXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z76mwnmREe2LqKx8duSOsA" name="NbGroup">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z76mw3mREe2LqKx8duSOsA" name="NbComParGroups">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z76mxHmREe2LqKx8duSOsA" name="observers" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z76mxXmREe2LqKx8duSOsA" type="_ZdZewHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(competitors);&#xD;
+     this.NbGroup = NbGroup;&#xD;
+     this.NbComParGroups = NbComParGroups;&#xD;
+     this.Leagues = new ArrayList&lt;League>();&#xD;
+     this.observers= observers;&#xD;
+&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z76mxnmREe2LqKx8duSOsA" name="getLeagues" specification="_Zdb7AHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z76mx3mREe2LqKx8duSOsA" type="_Zai_EHmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z76myHmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.Leagues;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z77N0HmREe2LqKx8duSOsA" name="generateLeagues" specification="_Z5m5oHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z77N0XmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; this.NbGroup; i++) {&#xD;
+         List&lt;Competitor> newcomp= new ArrayList&lt;Competitor>();&#xD;
+         for (int j = 0; j &lt; this.NbComParGroups; j++) {&#xD;
+             Competitor c = competitors.get(j+(this.NbComParGroups*i));&#xD;
+             newcomp.add(c);&#xD;
+             &#xD;
+         }&#xD;
+         League l = new League(newcomp);&#xD;
+         for(MatchObserver obs: this.observers ) {&#xD;
+     		l.getMatch().addObserver(obs);&#xD;
+&#xD;
+         }&#xD;
+         this.Leagues.add(l);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7-RIHmREe2LqKx8duSOsA" name="play" specification="_Z5oHwXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7-RIXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.generateLeagues(competitors);&#xD;
+     int cnt = 1;&#xD;
+     for (League L : this.Leagues) {&#xD;
+         System.out.println(&quot;Le groupe &quot; + cnt + &quot; commence !\n&quot;);&#xD;
+         L.play();&#xD;
+         this.points.putAll(L.points);&#xD;
+         cnt+=1;&#xD;
+     }&#xD;
+     &#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7-RInmREe2LqKx8duSOsA" name="Ranking" specification="_Zde-UHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7-RI3mREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Zdb7AHmREe2LqKx8duSOsA" name="getLeagues" method="_Z76mxnmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8TBQ3mREe2LqKx8duSOsA">
+            <body>Getters&#xD;
+     * @return the list of League in competition</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ZdciEHmREe2LqKx8duSOsA" type="_Zai_EHmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZddJIHmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zde-UHmREe2LqKx8duSOsA" name="Ranking" method="_Z7-RInmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z5p88XmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZdlE8nmREe2LqKx8duSOsA" name="affichage"/>
+        <ownedOperation xmi:id="_Z3sOEHmREe2LqKx8duSOsA" name="playMatch">
+          <ownedParameter xmi:id="_Z3vRYHmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z3vRYXmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5fk4HmREe2LqKx8duSOsA" name="GroupStage" method="_Z76mwHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z5gL9HmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z5gL9XmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_Z8TBQnmREe2LqKx8duSOsA">
+            <body>constructor&#xD;
+     * @param competitors (List&lt;Competitor>) is Competitors's list'&#xD;
+     * @param NbGroup (int) number of groups&#xD;
+     * @param NbComParGroups (int) number of competitor per groups</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5gL8HmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z5gL8XmREe2LqKx8duSOsA" name="NbGroup">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z5gL8nmREe2LqKx8duSOsA" name="NbComParGroups">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z5gL83mREe2LqKx8duSOsA" name="observers" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z5gL9nmREe2LqKx8duSOsA" type="_ZdZewHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5m5oHmREe2LqKx8duSOsA" name="generateLeagues" method="_Z77N0HmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8ToUHmREe2LqKx8duSOsA">
+            <body>Generate the Leagues from the list in param&#xD;
+     * @param comp (List&lt;Competitor>) is the of competitor</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5m5oXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5oHwXmREe2LqKx8duSOsA" name="play" method="_Z7-RIHmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8ToUXmREe2LqKx8duSOsA">
+            <body>Play every League generate by (generateLeagues) method&#xD;
+     * @param competitors (List&lt;Competitor>) is the of competitor&#xD;
+     * @throws Exception</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z5oHwnmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zdtn0HmREe2LqKx8duSOsA" name="Competition" isAbstract="true">
+        <ownedComment xmi:id="_Z8ToUnmREe2LqKx8duSOsA">
+          <body>A sport competition is defined as matches played between competitors.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Z6g4kHmREe2LqKx8duSOsA" name="competitors" visibility="protected" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" association="_Z9-cQXmREe2LqKx8duSOsA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z6hfoHmREe2LqKx8duSOsA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6iGsXmREe2LqKx8duSOsA" name="points" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <qualifier xmi:id="_Z6r3sHmREe2LqKx8duSOsA" type="_Z6jU0HmREe2LqKx8duSOsA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Z6sewHmREe2LqKx8duSOsA" name="match" visibility="protected" type="_ZcNL8HmREe2LqKx8duSOsA" association="_Z9_DUXmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7-4MHmREe2LqKx8duSOsA" name="Competition" specification="_Z5sZMHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7-4MXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z7-4MnmREe2LqKx8duSOsA" type="_Zdtn0HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>this.competitors = competitors;&#xD;
+		this.points = new HashMap&lt;Competitor, Integer>();&#xD;
+		// At the beginning, all the competitors have 0 point&#xD;
+		competitors.stream().forEach(c -> this.points.put(c, 0));&#xD;
+		&#xD;
+	this.match= new RandomMatch(this);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7_fQHmREe2LqKx8duSOsA" name="getMatch" specification="_ZdwrIHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7_fQXmREe2LqKx8duSOsA" type="_ZcNL8HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return match;&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7_fQnmREe2LqKx8duSOsA" name="addObserver" specification="_Z36QgHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7_fQ3mREe2LqKx8duSOsA" name="obs" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.match.addObserver(obs);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8AGUHmREe2LqKx8duSOsA" name="getCompetitors" specification="_ZdwrIXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8AGUXmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z8AGUnmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.competitors;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8AGU3mREe2LqKx8duSOsA" name="getPoints" specification="_Zdx5QHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8AGVHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>return this.points;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8AGVXmREe2LqKx8duSOsA" name="setPoint" specification="_Z37eoHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8AGVnmREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.points.put(competitor, 0);&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8AtYHmREe2LqKx8duSOsA" name="setMatch" specification="_Z38FsHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8AtYXmREe2LqKx8duSOsA" name="match" type="_ZcNL8HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.match = match;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8AtYnmREe2LqKx8duSOsA" name="addPoints" specification="_Z38FsnmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8AtY3mREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <language>java</language>
+          <body>this.points.put(competitor, this.points.get(competitor) + 1);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8DwsHmREe2LqKx8duSOsA" name="play" specification="_Zd5OAHmREe2LqKx8duSOsA">
+          <language>java</language>
+          <body>this.play(this.competitors);&#xD;
+		System.out.println(&quot;\n*** Ranking ***\n&quot;);&#xD;
+		this.affichage();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZdwrIHmREe2LqKx8duSOsA" name="getMatch" method="_Z7_fQHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z35pcHmREe2LqKx8duSOsA" type="_ZcNL8HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZdwrIXmREe2LqKx8duSOsA" name="getCompetitors" method="_Z8AGUHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8ToU3mREe2LqKx8duSOsA">
+            <body>All the competitors&#xD;
+	 * @return list of competitors</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ZdxSMHmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZdxSMXmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zdx5QHmREe2LqKx8duSOsA" name="getPoints" method="_Z8AGU3mREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z5xRsHmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zd5OAHmREe2LqKx8duSOsA" name="play" method="_Z8DwsHmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8WroHmREe2LqKx8duSOsA">
+            <body>Organizes the players of the competition in several matches&#xD;
+	 * Each match is played&#xD;
+	 * A competition is finished when all its matches have been played&#xD;
+	 * A ranking of the competitors is made&#xD;
+	 * The winner is displayed&#xD;
+	 * @throws Exception</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Zd51EHmREe2LqKx8duSOsA" name="affichage" isAbstract="true"/>
+        <ownedOperation xmi:id="_Zd51EXmREe2LqKx8duSOsA" name="Ranking" isAbstract="true">
+          <ownedParameter xmi:id="_Z5zG4HmREe2LqKx8duSOsA" type="_Z2c38HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z36QgHmREe2LqKx8duSOsA" name="addObserver" method="_Z7_fQnmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z36QgXmREe2LqKx8duSOsA" name="obs" type="_ZaTHcHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z37eoHmREe2LqKx8duSOsA" name="setPoint" visibility="protected" method="_Z8AGVXmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z37eoXmREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z38FsHmREe2LqKx8duSOsA" name="setMatch" method="_Z8AtYHmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8UPYHmREe2LqKx8duSOsA">
+            <body>changes the match&#xD;
+	 * @param match</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z38FsXmREe2LqKx8duSOsA" name="match" type="_ZcNL8HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z38FsnmREe2LqKx8duSOsA" name="addPoints" method="_Z8AtYnmREe2LqKx8duSOsA">
+          <ownedComment xmi:id="_Z8UPYXmREe2LqKx8duSOsA">
+            <body>add points to the competitor&#xD;
+	 * @param competitor</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Z38Fs3mREe2LqKx8duSOsA" name="competitor" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z38swHmREe2LqKx8duSOsA" name="playMatch" isAbstract="true">
+          <ownedParameter xmi:id="_Z39T0HmREe2LqKx8duSOsA" name="a" type="_Zblg4HmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z39T0XmREe2LqKx8duSOsA" name="b" type="_Zblg4HmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5sZMHmREe2LqKx8duSOsA" name="Competition" method="_Z7-4MHmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Z5tAQHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Z5tAQXmREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Z5sZMXmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z5tAQnmREe2LqKx8duSOsA" type="_Zdtn0HmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Z5xRsXmREe2LqKx8duSOsA" name="play" visibility="protected" isAbstract="true" raisedException="_Zb30wHmREe2LqKx8duSOsA _Z43SwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z5x4wHmREe2LqKx8duSOsA" name="competitors" type="_Z2YmgHmREe2LqKx8duSOsA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Z6jU0HmREe2LqKx8duSOsA" name="Competitor"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9UU8HmREe2LqKx8duSOsA" name="" memberEnd="_Z9UU8XmREe2LqKx8duSOsA _Z6C-gHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9UU8XmREe2LqKx8duSOsA" name="" type="_Za-c4HmREe2LqKx8duSOsA" association="_Z9UU8HmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9zdIHmREe2LqKx8duSOsA" name="" memberEnd="_Z9zdIXmREe2LqKx8duSOsA _Z6IeE3mREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9zdIXmREe2LqKx8duSOsA" name="" type="_Zch8EHmREe2LqKx8duSOsA" association="_Z9zdIHmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z91SUHmREe2LqKx8duSOsA" name="" memberEnd="_Z91SUXmREe2LqKx8duSOsA _Z6JsMXmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z91SUXmREe2LqKx8duSOsA" name="" type="_Zch8EHmREe2LqKx8duSOsA" association="_Z91SUHmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z94VoXmREe2LqKx8duSOsA" name="" memberEnd="_Z94VonmREe2LqKx8duSOsA _Z6OksXmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z94VonmREe2LqKx8duSOsA" name="" type="_Zch8EHmREe2LqKx8duSOsA" association="_Z94VoXmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z98AAHmREe2LqKx8duSOsA" name="" memberEnd="_Z98AAXmREe2LqKx8duSOsA _Z6YVsHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z98AAXmREe2LqKx8duSOsA" name="" type="_ZdZewHmREe2LqKx8duSOsA" association="_Z98AAHmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z991MXmREe2LqKx8duSOsA" name="" memberEnd="_Z991MnmREe2LqKx8duSOsA _Z6Y8wHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z991MnmREe2LqKx8duSOsA" name="" type="_ZdZewHmREe2LqKx8duSOsA" association="_Z991MXmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9-cQXmREe2LqKx8duSOsA" name="" memberEnd="_Z9-cQnmREe2LqKx8duSOsA _Z6g4kHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9-cQnmREe2LqKx8duSOsA" name="" type="_Zdtn0HmREe2LqKx8duSOsA" association="_Z9-cQXmREe2LqKx8duSOsA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z9_DUXmREe2LqKx8duSOsA" name="" memberEnd="_Z9_DUnmREe2LqKx8duSOsA _Z6sewHmREe2LqKx8duSOsA">
+        <ownedEnd xmi:id="_Z9_DUnmREe2LqKx8duSOsA" name="" type="_Zdtn0HmREe2LqKx8duSOsA" association="_Z9_DUXmREe2LqKx8duSOsA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZX9lIHmREe2LqKx8duSOsA" name="exception">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zb30wHmREe2LqKx8duSOsA" name="NotPowerOfTwoException">
+        <generalization xmi:id="_Z44g4XmREe2LqKx8duSOsA" general="_Z43SwHmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7o58HmREe2LqKx8duSOsA" name="NotPowerOfTwoException" specification="_Zb4b0HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7o58XmREe2LqKx8duSOsA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Z7o58nmREe2LqKx8duSOsA" type="_Zb30wHmREe2LqKx8duSOsA" direction="return"/>
+          <language>java</language>
+          <body>super(msg);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Zb4b0HmREe2LqKx8duSOsA" name="NotPowerOfTwoException" method="_Z7o58HmREe2LqKx8duSOsA">
+          <eAnnotations xmi:id="_Zb4b0nmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Zb4b03mREe2LqKx8duSOsA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Zb4b0XmREe2LqKx8duSOsA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Zb4b1HmREe2LqKx8duSOsA" type="_Zb30wHmREe2LqKx8duSOsA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZYfwoHmREe2LqKx8duSOsA" name="mainCompetitions">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zb6RAHmREe2LqKx8duSOsA" name="CompetitionMain">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7qIEHmREe2LqKx8duSOsA" name="main" specification="_Zb8GMHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7qIEXmREe2LqKx8duSOsA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z7qIEnmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String choice = &quot;&quot;;&#xD;
+		Competition competition = null;&#xD;
+		&#xD;
+		// We create arrays with the competitors' names&#xD;
+		String[] leagueArray = {&quot;Blastoff&quot;, &quot;Drift&quot;, &quot;Lynx&quot;, &quot;Catalyst&quot;, &quot;Raven&quot;, &quot;Mildas&quot;};&#xD;
+		String[] tournamentArray = {&quot;Blastoff&quot;, &quot;Drift&quot;, &quot;Lynx&quot;, &quot;Catalyst&quot;, &quot;Raven&quot;, &quot;Mildas&quot;, &quot;Pat&quot;, &quot;John&quot;};&#xD;
+		&#xD;
+		List&lt;Competitor> leagueCompetitors = new ArrayList&lt;>();&#xD;
+		List&lt;Competitor> tournamentCompetitors = new ArrayList&lt;>();&#xD;
+		&#xD;
+		// We add each competitor to the league&#xD;
+		for(int i = 0; i &lt; leagueArray.length; i++) {&#xD;
+			leagueCompetitors.add(new Competitor(leagueArray[i]));&#xD;
+		}&#xD;
+&#xD;
+		// We add each competitor to the tournament&#xD;
+		for(int i = 0; i &lt; tournamentArray.length; i++) {&#xD;
+			tournamentCompetitors.add(new Competitor(tournamentArray[i]));&#xD;
+		}&#xD;
+&#xD;
+		try (Scanner scanner = new Scanner(System.in)) {&#xD;
+			while (choice.equals(&quot;&quot;)) {&#xD;
+				System.out.println(&quot;Please, select a competition : &quot;);&#xD;
+				System.out.println(&quot;Choice          1  :  \&quot;League\&quot;&quot;);&#xD;
+				System.out.println(&quot;                2  :  \&quot;Tournament\&quot;&quot;);&#xD;
+				System.out.println(&quot;                3  :  \&quot;Exit\&quot;&quot;);&#xD;
+				String choix = scanner.nextLine();&#xD;
+				try {&#xD;
+					switch (parseInt(choix)) {&#xD;
+						case 1:&#xD;
+							competition = new League(leagueCompetitors);&#xD;
+							choice = choix;&#xD;
+							break;&#xD;
+						case 2:&#xD;
+							competition = new Tournament(tournamentCompetitors);&#xD;
+							choice = choix;&#xD;
+							break;&#xD;
+						case 3:&#xD;
+							System.out.println(&quot;Exit&quot;);&#xD;
+							System.exit(-1);&#xD;
+					}&#xD;
+				}&#xD;
+				catch (NumberFormatException e) {&#xD;
+					System.out.println(&quot;Please enter a valid number.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+         &#xD;
+         // To see if the chosen competition is correct&#xD;
+			System.out.println(&quot;---------------------------------------------------------------------------&quot;);&#xD;
+			System.out.println(&quot;\nYou have chosen to play a *** &quot; + competition + &quot; ***.\n&quot;);&#xD;
+         &#xD;
+         System.out.println(&quot;---------------------------------------------------------------------------&quot;);&#xD;
+         &#xD;
+         // we create a match&#xD;
+         MatchObserver journaliste = new Journalist();&#xD;
+         Bookmaker bookmaker  = new Bookmaker();&#xD;
+  &#xD;
+         bookmaker.addCompetitorsOdds(tournamentCompetitors);&#xD;
+        &#xD;
+&#xD;
+         Match match = new RandomMatch(competition);&#xD;
+         match.addObserver(journaliste);&#xD;
+&#xD;
+         match.addObserver(bookmaker);&#xD;
+         competition.setMatch(match);&#xD;
+&#xD;
+         // We play the competition&#xD;
+         competition.play();&#xD;
+         	&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Zb8GMHmREe2LqKx8duSOsA" name="main" isStatic="true" method="_Z7qIEHmREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Zb8GMXmREe2LqKx8duSOsA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zb8tQHmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZcBlwHmREe2LqKx8duSOsA" name="MasterMain">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z7qIE3mREe2LqKx8duSOsA" name="main" specification="_ZcDa8HmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z7qIFHmREe2LqKx8duSOsA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z7qIFXmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List&lt;Competitor> MesCompetiteurs = new ArrayList&lt;>();&#xD;
+     for(int i = 0; i &lt; 16; i++){&#xD;
+             MesCompetiteurs.add(new Competitor(Integer.toString(i)));&#xD;
+     }&#xD;
+     MatchObserver journaliste = new Journalist();&#xD;
+     Bookmaker bookmaker  = new Bookmaker();&#xD;
+ &#xD;
+     bookmaker.addCompetitorsOdds(MesCompetiteurs);&#xD;
+     Selection myselection = new FirstSelected();&#xD;
+     Master master = new Master(MesCompetiteurs, myselection, 4, 4 );&#xD;
+&#xD;
+     &#xD;
+     master.addObserver(journaliste);&#xD;
+     master.addObserver(bookmaker);&#xD;
+&#xD;
+     master.play();&#xD;
+&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ZcDa8HmREe2LqKx8duSOsA" name="main" isStatic="true" method="_Z7qIE3mREe2LqKx8duSOsA" raisedException="_Z43SwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_ZcDa8XmREe2LqKx8duSOsA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZcDa8nmREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZYjbAHmREe2LqKx8duSOsA" name="select">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZeDmEHmREe2LqKx8duSOsA" name="FirstSelected">
+        <interfaceRealization xmi:id="_Z4EBgHmREe2LqKx8duSOsA" client="_ZeDmEHmREe2LqKx8duSOsA" supplier="_ZeK60HmREe2LqKx8duSOsA" contract="_ZeK60HmREe2LqKx8duSOsA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Z8EXwHmREe2LqKx8duSOsA" name="select" specification="_Z4FPoHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z8EXwXmREe2LqKx8duSOsA" name="g" type="_ZdZewHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z8EXwnmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z8EXw3mREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List&lt;League> Leagues = g.getLeagues();
+     List &lt;Competitor> selected = new ArrayList&lt;Competitor>();
+     for (League league : Leagues) { 
+     	Map&lt;Competitor,Integer> ranking =  MapUtil.sortByDescendingValue(league.getPoints());
+
+         List&lt;Entry&lt;Competitor,Integer>> sortedEntries = new ArrayList&lt;Entry&lt;Competitor,Integer>>(ranking.entrySet());
+         selected.add(sortedEntries.get(0).getKey());
+     }
+     
+     
+     return selected;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Z4FPoHmREe2LqKx8duSOsA" name="select" method="_Z8EXwHmREe2LqKx8duSOsA">
+          <ownedParameter xmi:id="_Z4FPoXmREe2LqKx8duSOsA" name="g" type="_ZdZewHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4FPonmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z4FPo3mREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ZeK60HmREe2LqKx8duSOsA" name="Selection">
+        <ownedOperation xmi:id="_Z4F2sHmREe2LqKx8duSOsA" name="select">
+          <ownedParameter xmi:id="_Z4F2sXmREe2LqKx8duSOsA" name="g" type="_ZdZewHmREe2LqKx8duSOsA"/>
+          <ownedParameter xmi:id="_Z4F2snmREe2LqKx8duSOsA" type="_Zblg4HmREe2LqKx8duSOsA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z4F2s3mREe2LqKx8duSOsA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Y7rRwHmREe2LqKx8duSOsA">
+      <eAnnotations xmi:id="_Y7wKQHmREe2LqKx8duSOsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Y81IUHmREe2LqKx8duSOsA" base_Package="_YmRpgHmREe2LqKx8duSOsA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_ZaulQHmREe2LqKx8duSOsA" genericsValue="Competitor,Integer" base_Element="_ZaoeoHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_ZbO7kHmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_ZbI08nmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZbQJsHmREe2LqKx8duSOsA" base_Element="_ZbI08nmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZbR-4HmREe2LqKx8duSOsA" base_Element="_ZbI08nmREe2LqKx8duSOsA">
+    <annotations xmi:id="_ZbR-4XmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_Zc0P8HmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_Zcs7MHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Zc03AHmREe2LqKx8duSOsA" base_Element="_Zcs7MHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_Zc1eEHmREe2LqKx8duSOsA" base_Element="_Zcs7MHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_Zc1eEXmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_ZdRi8HmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_ZdKOMHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_ZdiBoHmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_Zde-UHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Zdkd4HmREe2LqKx8duSOsA" base_Element="_Zde-UHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_ZdlE8HmREe2LqKx8duSOsA" base_Element="_Zde-UHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_ZdlE8XmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ZdlsAHmREe2LqKx8duSOsA" base_Element="_ZdlE8nmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Zd3_4HmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_Zdx5QHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Zd8RUHmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_Zd51EXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z2Sf4HmREe2LqKx8duSOsA" base_Element="_Z2RRwHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_Z2TG8HmREe2LqKx8duSOsA" base_Element="_Z2RRwHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_Z2TG8XmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Z2U8IHmREe2LqKx8duSOsA" base_Element="_Z2TuAHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z2cQ4HmREe2LqKx8duSOsA" base_Element="_Z2YmgHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z2eGEHmREe2LqKx8duSOsA" base_Element="_Z2c38HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z2i-kHmREe2LqKx8duSOsA" base_Element="_Z2eGEXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z2rhcHmREe2LqKx8duSOsA" base_Element="_Z2nQAHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z2xBAHmREe2LqKx8duSOsA" base_Element="_Z2vy4HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z3BfsHmREe2LqKx8duSOsA" base_Element="_Z28AIHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z3DU4HmREe2LqKx8duSOsA" base_Element="_Z3Ct0HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z3c9gHmREe2LqKx8duSOsA" base_Element="_Z3cWcHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_Z3gA0HmREe2LqKx8duSOsA" base_Element="_Z3cWcHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_Z3gA0XmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z3ojsHmREe2LqKx8duSOsA" base_Element="_Z3n8oHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_Z3ojsXmREe2LqKx8duSOsA" base_Element="_Z3n8oHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_Z3pKwHmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z3v4cHmREe2LqKx8duSOsA" base_Element="_Z3sOEHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Annotations xmi:id="_Z3yUsHmREe2LqKx8duSOsA" base_Element="_Z3sOEHmREe2LqKx8duSOsA">
+    <annotations xmi:id="_Z3yUsXmREe2LqKx8duSOsA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Z4IS8HmREe2LqKx8duSOsA" base_Element="_Z4GdwHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z4L9UHmREe2LqKx8duSOsA" base_Element="_Z4IS8XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z4PAoHmREe2LqKx8duSOsA" base_Element="_Z4NLcHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4am0HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4YxoXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4b08HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4bN4XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4hUgHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4gtcXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4jwwHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4iioXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4k-4HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4kX0XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z4opQHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4ll8XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z4vW8HmREe2LqKx8duSOsA" base_Element="_Z4uv4HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z44g4HmREe2LqKx8duSOsA" base_Element="_Z43SwHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z45vAHmREe2LqKx8duSOsA" base_Element="_Z45H8HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5EHEHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z4_1oXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5N4EHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5I_kXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5T-sHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5SwkXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5VM0HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5UlwXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5XCAHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5Vz4XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5eWwHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5dIonmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5ioMHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5gL8HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5mSkHmREe2LqKx8duSOsA" genericsValue="MatchObserver" base_Element="_Z5gL83mREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5oHwHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5m5oXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5p88HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5oHwnmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5wqoHmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5sZMXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5yf0HmREe2LqKx8duSOsA" genericsValue="Competitor" base_Element="_Z5x4wHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_Z57CsHmREe2LqKx8duSOsA" typeParameterDeclarationValue="K, V extends Comparable&lt;? super V>" base_Operation="_Z52KMHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z57CsXmREe2LqKx8duSOsA" genericsValue="K, V" base_Element="_Z52KMHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z58Q0XmREe2LqKx8duSOsA" base_Element="_Z52KMHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z5834HmREe2LqKx8duSOsA" genericsValue="K, V" base_Element="_Z56boHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6EMoHmREe2LqKx8duSOsA" base_Element="_Z6C-gHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6Go4HmREe2LqKx8duSOsA" base_Element="_Z6FawHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6HP8HmREe2LqKx8duSOsA" base_Element="_Z6Go4XmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6IeEHmREe2LqKx8duSOsA" base_Element="_Z6H3AHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6IeEnmREe2LqKx8duSOsA" base_Element="_Z6IeEXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6JsMHmREe2LqKx8duSOsA" base_Element="_Z6IeE3mREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6OksHmREe2LqKx8duSOsA" base_Element="_Z6JsMXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6PLwHmREe2LqKx8duSOsA" base_Element="_Z6OksXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Generics xmi:id="_Z6TdMHmREe2LqKx8duSOsA" genericsValue="Competitor, Integer" base_Element="_Z6QZ4HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6TdMXmREe2LqKx8duSOsA" base_Element="_Z6QZ4HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6XuoHmREe2LqKx8duSOsA" base_Element="_Z6XHkHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6XuonmREe2LqKx8duSOsA" base_Element="_Z6XuoXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6YVsnmREe2LqKx8duSOsA" base_Element="_Z6YVsHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6Y8wnmREe2LqKx8duSOsA" base_Element="_Z6Y8wHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6iGsHmREe2LqKx8duSOsA" base_Element="_Z6g4kHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6itwHmREe2LqKx8duSOsA" base_Element="_Z6iGsXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z6lKAHmREe2LqKx8duSOsA" base_Element="_Z6jU0HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Z6ts4HmREe2LqKx8duSOsA" base_Element="_Z6sewHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9WKIHmREe2LqKx8duSOsA" base_Element="_Z9UU8HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9wZ0HmREe2LqKx8duSOsA" base_Element="_Z9WxMHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9y2EHmREe2LqKx8duSOsA" base_Element="_Z9xn8HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z90rQHmREe2LqKx8duSOsA" base_Element="_Z9zdIHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z94VoHmREe2LqKx8duSOsA" base_Element="_Z91SUHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z948sHmREe2LqKx8duSOsA" base_Element="_Z94VoXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z97Y8HmREe2LqKx8duSOsA" base_Element="_Z96K0HmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z991MHmREe2LqKx8duSOsA" base_Element="_Z98AAHmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9-cQHmREe2LqKx8duSOsA" base_Element="_Z991MXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9_DUHmREe2LqKx8duSOsA" base_Element="_Z9-cQXmREe2LqKx8duSOsA"/>
+  <UMLLabProfile:Reference xmi:id="_Z9_DU3mREe2LqKx8duSOsA" base_Element="_Z9_DUXmREe2LqKx8duSOsA"/>
+</xmi:XMI>

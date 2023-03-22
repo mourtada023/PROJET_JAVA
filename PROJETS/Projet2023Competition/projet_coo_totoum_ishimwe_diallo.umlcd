@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_YrrG4HmREe2LqKx8duSOsA">
+  <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_YmRpgHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bhuG8HmREe2LqKx8duSOsA" targetItem="_bh3Q4HmREe2LqKx8duSOsA" sourceItem="_bhsRwHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bk1FUHmREe2LqKx8duSOsA" sourceAnchor="229.0,0.0" targetAnchor="213.0,100.0" dashed="true" superClass="_bkGFgHmREe2LqKx8duSOsA" subClass="_blPVAHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2LLIHmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkWUwHmVEe2LqKx8duSOsA" sourceY="-41" targetX="382" targetY="111"/>
+    <bendpoints xmi:id="_OkWUwXmVEe2LqKx8duSOsA" sourceX="-382" sourceY="-41" targetY="111"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bl2ZAHmREe2LqKx8duSOsA" sourceAnchor="228.0,0.0" targetAnchor="213.0,100.0" dashed="true" superClass="_bkGFgHmREe2LqKx8duSOsA" subClass="_bmX9eXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3nVkHmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkVtsHmVEe2LqKx8duSOsA" sourceY="-30" targetX="-162" targetY="110"/>
+    <bendpoints xmi:id="_OkVtsXmVEe2LqKx8duSOsA" sourceX="162" sourceY="-29" targetY="111"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bmR20HmREe2LqKx8duSOsA" targetItem="_bmX9mXmREe2LqKx8duSOsA" sourceItem="_bmKiEHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bmX9cHmREe2LqKx8duSOsA" source="_bmX9eXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z96K0HmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_bmX9cXmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z97Y8HmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bmX9cnmREe2LqKx8duSOsA" text=""/>
+    <sourceRole xmi:id="_bmX9c3mREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z96K0XmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bmX9dHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bmX9dXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bmX9dnmREe2LqKx8duSOsA" aggregationKind="NONE" name="competitorsOdds" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6QZ4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bmX9d3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bmX9eHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bnNq8HmREe2LqKx8duSOsA" targetItem="_bnPgIHmREe2LqKx8duSOsA" sourceItem="_bm6wAHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bnjCIHmREe2LqKx8duSOsA" target="_bn1WAHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8JQQHmREe2LqKx8duSOsA"/>
+    <nameVisual xmi:id="_bnjCIXmREe2LqKx8duSOsA" text=""/>
+    <sourceRole xmi:id="_bnjCInmREe2LqKx8duSOsA" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcF3MHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bnjCI3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bnjCJHmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bnjCJXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8J3UHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bnjCJnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bnjCJ3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_boVFQHmREe2LqKx8duSOsA" sourceAnchor="526.0,37.0" targetAnchor="0.0,50.0" target="_bkGFgHmREe2LqKx8duSOsA" source="_bpgJ8HmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9xn8HmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_bpI9lHmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9y2EHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bpI9kXmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmgkwHmREe2LqKx8duSOsA" position="-38.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bpI9knmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9xn8XmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmevkXmREe2LqKx8duSOsA" position="15.0,-67.0"/>
+      <visibility xmi:id="_bpQ5YXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpQ5YHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bpI9k3mREe2LqKx8duSOsA" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Go4XmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmhy4HmREe2LqKx8duSOsA" position="-129.0,-67.0"/>
+      <visibility xmi:id="_bpQ5Y3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bpQ5YnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bpAasHmREe2LqKx8duSOsA" targetItem="_bpgJ8HmREe2LqKx8duSOsA" sourceItem="_bo0NcHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bpBBwHmREe2LqKx8duSOsA" sourceAnchor="15.0,0.0" targetAnchor="374.0,269.0" superClass="_bpgJ8HmREe2LqKx8duSOsA" subClass="_bnPgIHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2vL0HmREe2LqKx8duSOsA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bpIWgHmREe2LqKx8duSOsA" sourceAnchor="210.0,0.0" targetAnchor="0.0,133.0" target="_bpgJ8HmREe2LqKx8duSOsA" source="_b3F6AHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9_DUXmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkWUxHmVEe2LqKx8duSOsA" sourceY="-94" targetX="-234"/>
+    <stereotypes xmi:id="_bpOdIHmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9_DU3mREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bpN2EHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmvOQHmREe2LqKx8duSOsA" position="73.0,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bpN2EXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9_DUnmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmunMHmREe2LqKx8duSOsA" position="41.0,-92.0"/>
+      <visibility xmi:id="_bpaqYHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpWY8HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bpN2EnmREe2LqKx8duSOsA" aggregationKind="NONE" name="match" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6sewHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmvOQXmREe2LqKx8duSOsA" position="-109.0,-67.0"/>
+      <stereotypes xmi:id="_bpbRcnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6ts4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bpbRcXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bpbRcHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bpI9kHmREe2LqKx8duSOsA" sourceAnchor="0.0,241.0" targetAnchor="422.0,14.0" target="_b3F6AHmREe2LqKx8duSOsA" source="_bpgJ8HmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9WxMHmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_bpOdJHmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9wZ0HmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bpOdIXmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmjBAHmREe2LqKx8duSOsA" position="-6.0,7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bpOdInmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9WxMXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmhy4XmREe2LqKx8duSOsA" position="-19.0,-67.0"/>
+      <visibility xmi:id="_bpbRdHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpbRc3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bpOdI3mREe2LqKx8duSOsA" aggregationKind="NONE" name="competition" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6FawHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmjoEHmREe2LqKx8duSOsA" position="-46.0,41.0"/>
+      <visibility xmi:id="_bpb4gXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bpb4gHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bpKLsXmREe2LqKx8duSOsA" targetItem="_bpgxE3mREe2LqKx8duSOsA" sourceItem="_bpKLsHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bpKywXmREe2LqKx8duSOsA" targetItem="_bpgxHHmREe2LqKx8duSOsA" sourceItem="_bpKywHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bpLZ0HmREe2LqKx8duSOsA" targetItem="_bpgxJXmREe2LqKx8duSOsA" sourceItem="_bpKywnmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bpLZ0nmREe2LqKx8duSOsA" targetItem="_bpgxK3mREe2LqKx8duSOsA" sourceItem="_bpLZ0XmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_btGQgHmREe2LqKx8duSOsA" targetItem="_bt4ToHmREe2LqKx8duSOsA" sourceItem="_bsjd8HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_btOzYHmREe2LqKx8duSOsA" sourceAnchor="197.0,0.0" targetAnchor="211.0,444.0" superClass="_b3F6AHmREe2LqKx8duSOsA" subClass="_bt4ToHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2mB4HmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkXi5XmVEe2LqKx8duSOsA" sourceY="-30" targetX="2132" targetY="135"/>
+    <bendpoints xmi:id="_OkXi5nmVEe2LqKx8duSOsA" sourceX="-2132" sourceY="-30" targetY="135"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_btQokHmREe2LqKx8duSOsA" sourceAnchor="0.0,56.0" targetAnchor="374.0,96.0" target="_bh3Q4HmREe2LqKx8duSOsA" source="_b3F6AHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9-cQXmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_btn08HmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9_DUHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_btlYsHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmuAIHmREe2LqKx8duSOsA" position="-35.0,-29.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_btlYsXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9-cQnmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmtZEHmREe2LqKx8duSOsA" position="-31.0,-67.0"/>
+      <visibility xmi:id="_bt13YXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt13YHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_btlYsnmREe2LqKx8duSOsA" aggregationKind="NONE" name="competitors" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6g4kHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmuAIXmREe2LqKx8duSOsA" position="2.0,2.0"/>
+      <visibility xmi:id="_bt13Y3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bt13YnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_btkKkHmREe2LqKx8duSOsA" targetItem="_b3F6AHmREe2LqKx8duSOsA" sourceItem="_btR2sHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_btw-4HmREe2LqKx8duSOsA" targetItem="_b3F6FnmREe2LqKx8duSOsA" sourceItem="_btocAHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_btyNAHmREe2LqKx8duSOsA" targetItem="_b3F6IXmREe2LqKx8duSOsA" sourceItem="_btxl8HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_btzbIXmREe2LqKx8duSOsA" targetItem="_b3F6OXmREe2LqKx8duSOsA" sourceItem="_btzbIHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bt0CMXmREe2LqKx8duSOsA" targetItem="_b3F6P3mREe2LqKx8duSOsA" sourceItem="_bt0CMHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_buafIHmREe2LqKx8duSOsA" sourceAnchor="204.0,0.0" targetAnchor="0.0,96.0" target="_bh3Q4HmREe2LqKx8duSOsA" source="_bv00YHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9UU8HmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkW703mVEe2LqKx8duSOsA" sourceY="-690" targetX="-174"/>
+    <stereotypes xmi:id="_bvuGsXmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9WKIHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bvtfoHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmkPIXmREe2LqKx8duSOsA" position="63.99999999999994,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bvtfoXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9UU8XmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmkPIHmREe2LqKx8duSOsA" position="2.0,-123.0"/>
+      <visibility xmi:id="_bvv74XmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bvv74HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bvuGsHmREe2LqKx8duSOsA" aggregationKind="NONE" name="winner" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6C-gHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmkPInmREe2LqKx8duSOsA" position="-133.0,1.0"/>
+      <visibility xmi:id="_bvwi8XmREe2LqKx8duSOsA" label="~"/>
+      <cardinality xmi:id="_bvwi8HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bvOXcHmREe2LqKx8duSOsA" sourceAnchor="234.0,0.0" targetAnchor="211.0,444.0" superClass="_b3F6AHmREe2LqKx8duSOsA" subClass="_bv00YHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2480HmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkW71HmVEe2LqKx8duSOsA" sourceY="-167" targetX="-849" targetY="135"/>
+    <bendpoints xmi:id="_OkW71XmVEe2LqKx8duSOsA" sourceX="849" sourceY="-167" targetY="135"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bvs4kXmREe2LqKx8duSOsA" targetItem="_bv00YHmREe2LqKx8duSOsA" sourceItem="_bvs4kHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bw3WMHmREe2LqKx8duSOsA" sourceAnchor="0.0,247.0" targetAnchor="470.0,148.0" target="_bv00YHmREe2LqKx8duSOsA" source="_bzWpgHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z94VoXmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_bzJOI3mREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z948sHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bzJOIHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmldQHmREe2LqKx8duSOsA" position="-23.0,41.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bzJOIXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z94VonmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmk2MHmREe2LqKx8duSOsA" position="-18.0,-106.0"/>
+      <visibility xmi:id="_bzSYEXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzSYEHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bzJOInmREe2LqKx8duSOsA" aggregationKind="NONE" name="tournament" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6OksXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmldQXmREe2LqKx8duSOsA" position="-40.0,-32.0"/>
+      <visibility xmi:id="_bzSYE3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzSYEnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_byJIkHmREe2LqKx8duSOsA" sourceAnchor="387.0,0.0" targetAnchor="211.0,444.0" superClass="_b3F6AHmREe2LqKx8duSOsA" subClass="_bzWpgHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3gn4HmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkW70XmVEe2LqKx8duSOsA" sourceY="-68" targetX="-196" targetY="135"/>
+    <bendpoints xmi:id="_OkW70nmVEe2LqKx8duSOsA" sourceX="196" sourceY="-68" targetY="135"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_by0eAHmREe2LqKx8duSOsA" targetItem="_bzWpgHmREe2LqKx8duSOsA" sourceItem="_byz28HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzJ1MXmREe2LqKx8duSOsA" targetItem="_bzWpnHmREe2LqKx8duSOsA" sourceItem="_bzJ1MHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzKcQXmREe2LqKx8duSOsA" targetItem="_bzWppHmREe2LqKx8duSOsA" sourceItem="_bzKcQHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzLqYHmREe2LqKx8duSOsA" targetItem="_bzWpsXmREe2LqKx8duSOsA" sourceItem="_bzLDUHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzMRcHmREe2LqKx8duSOsA" targetItem="_bzWpyHmREe2LqKx8duSOsA" sourceItem="_bzLqYXmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzM4gXmREe2LqKx8duSOsA" targetItem="_bzWp2nmREe2LqKx8duSOsA" sourceItem="_bzM4gHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzOtsHmREe2LqKx8duSOsA" targetItem="_bzWp4nmREe2LqKx8duSOsA" sourceItem="_bzNfkHmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzQi4XmREe2LqKx8duSOsA" targetItem="_bzWp6HmREe2LqKx8duSOsA" sourceItem="_bzQi4HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bzRJ8HmREe2LqKx8duSOsA" targetItem="_bzWp7nmREe2LqKx8duSOsA" sourceItem="_bzQi4nmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bzU0UHmREe2LqKx8duSOsA" sourceAnchor="758.0,375.0" targetAnchor="217.0,101.0" target="_cAKWcHmREe2LqKx8duSOsA" source="_bzWpgHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9zdIHmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkW70HmVEe2LqKx8duSOsA" sourceX="1620" sourceY="-13" targetY="1151"/>
+    <stereotypes xmi:id="_bzU0UXmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z90rQHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bzU0UnmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmmrYHmREe2LqKx8duSOsA" position="-47.0,-68.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bzU0U3mREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9zdIXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmmEUHmREe2LqKx8duSOsA" position="1.0,41.0"/>
+      <visibility xmi:id="_bzU0VHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzU0VXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bzU0VnmREe2LqKx8duSOsA" aggregationKind="NONE" name="selection" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6IeE3mREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmmrYXmREe2LqKx8duSOsA" position="-88.0,69.0"/>
+      <visibility xmi:id="_bzU0V3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzU0WHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bzWCcHmREe2LqKx8duSOsA" sourceAnchor="758.0,197.0" targetAnchor="0.0,151.0" target="_b2W6MHmREe2LqKx8duSOsA" source="_bzWpgHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z91SUHmREe2LqKx8duSOsA"/>
+    <stereotypes xmi:id="_bzWCcXmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z94VoHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bzWCcnmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmn5gHmREe2LqKx8duSOsA" position="-42.0,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bzWCc3mREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z91SUXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmnScHmREe2LqKx8duSOsA" position="16.0,-67.0"/>
+      <visibility xmi:id="_bzWCdHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWCdXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bzWCdnmREe2LqKx8duSOsA" aggregationKind="NONE" name="groupStage" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6JsMXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmn5gXmREe2LqKx8duSOsA" position="-181.0,2.0"/>
+      <visibility xmi:id="_bzWCd3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWCeHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_b0QBYHmREe2LqKx8duSOsA" sourceAnchor="425.0,304.0" targetAnchor="197.0,213.0" target="_bt4ToHmREe2LqKx8duSOsA" source="_b2W6MHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z98AAHmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkW71nmVEe2LqKx8duSOsA" sourceY="109" targetX="-1211" targetY="284"/>
+    <bendpoints xmi:id="_OkXi4HmVEe2LqKx8duSOsA" sourceX="1211" sourceY="109" targetY="284"/>
+    <stereotypes xmi:id="_b2SBs3mREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z991MHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_b2SBsHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmogkXmREe2LqKx8duSOsA" position="-77.36363636363603,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_b2SBsXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z98AAXmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmogkHmREe2LqKx8duSOsA" position="41.5,43.0"/>
+      <visibility xmi:id="_b2VFAXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2VFAHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_b2SBsnmREe2LqKx8duSOsA" aggregationKind="NONE" name="Leagues" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6YVsHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmpHoHmREe2LqKx8duSOsA" position="2.0,44.40000000000009"/>
+      <visibility xmi:id="_b2VFA3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b2VFAnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_b1G9AHmREe2LqKx8duSOsA" sourceAnchor="841.0,0.0" targetAnchor="295.0,100.0" target="_bkGFgHmREe2LqKx8duSOsA" source="_b2W6MHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z991MXmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkXi4XmVEe2LqKx8duSOsA" sourceY="-410" targetX="86" targetY="422"/>
+    <bendpoints xmi:id="_OkXi4nmVEe2LqKx8duSOsA" sourceX="-86" sourceY="-409" targetY="423"/>
+    <stereotypes xmi:id="_b2SowHmREe2LqKx8duSOsA" name="Reference">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z9-cQHmREe2LqKx8duSOsA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_b2SBtHmREe2LqKx8duSOsA" text="">
+      <visualProperties xmi:id="_cmq80HmREe2LqKx8duSOsA" position="-1.0,-28.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_b2SBtXmREe2LqKx8duSOsA" aggregationKind="NONE" name="">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z991MnmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmpusHmREe2LqKx8duSOsA" position="-19.0,-115.0"/>
+      <visibility xmi:id="_b2VsEXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2VsEHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_b2SBtnmREe2LqKx8duSOsA" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Y8wHmREe2LqKx8duSOsA"/>
+      <visualProperties xmi:id="_cmsyAHmREe2LqKx8duSOsA" position="7.0,56.0"/>
+      <visibility xmi:id="_b2VsE3mREe2LqKx8duSOsA" label="-"/>
+      <cardinality xmi:id="_b2VsEnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_b1k3EHmREe2LqKx8duSOsA" sourceAnchor="425.0,0.0" targetAnchor="211.0,444.0" superClass="_b3F6AHmREe2LqKx8duSOsA" subClass="_b2W6MHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3yUsnmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkXi43mVEe2LqKx8duSOsA" sourceY="-114" targetX="921" targetY="135"/>
+    <bendpoints xmi:id="_OkXi5HmVEe2LqKx8duSOsA" sourceX="-921" sourceY="-114" targetY="135"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b2TP0HmREe2LqKx8duSOsA" targetItem="_b2W6R3mREe2LqKx8duSOsA" sourceItem="_b2SowXmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b2T24XmREe2LqKx8duSOsA" targetItem="_b2W6Y3mREe2LqKx8duSOsA" sourceItem="_b2T24HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b2T243mREe2LqKx8duSOsA" targetItem="_b2W6dXmREe2LqKx8duSOsA" sourceItem="_b2T24nmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b2Ud8XmREe2LqKx8duSOsA" targetItem="_b2W6e3mREe2LqKx8duSOsA" sourceItem="_b2Ud8HmREe2LqKx8duSOsA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_b-W_oHmREe2LqKx8duSOsA" sourceAnchor="189.0,0.0" targetAnchor="189.0,0.0" dashed="true" superClass="_cAKWcHmREe2LqKx8duSOsA" subClass="_b_ExUHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4EBgHmREe2LqKx8duSOsA"/>
+    <bendpoints xmi:id="_OkWUwnmVEe2LqKx8duSOsA" sourceY="-57" targetX="-1832" targetY="-15"/>
+    <bendpoints xmi:id="_OkWUw3mVEe2LqKx8duSOsA" sourceX="1832" sourceY="-57" targetY="-15"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bhsRwHmREe2LqKx8duSOsA" sourceConnectionVisual="_bhuG8HmREe2LqKx8duSOsA" text="A class to represent the competitor" item="_bh3Q4HmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ICIXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bmKiEHmREe2LqKx8duSOsA" sourceConnectionVisual="_bmR20HmREe2LqKx8duSOsA" text="add the list of competitors to the HashMap&lt;Competitor, Integer> and start at 1 as rate&#xD;&#xA;     * @param comp CompetitorList&#xD;&#xA;     *" item="_bmX9mXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8TBQXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bm6wAHmREe2LqKx8duSOsA" sourceConnectionVisual="_bnNq8HmREe2LqKx8duSOsA" text="In this class, the winner of a match is obtained randomly" item="_bnPgIHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8HbEXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bo0NcHmREe2LqKx8duSOsA" sourceConnectionVisual="_bpAasHmREe2LqKx8duSOsA" text="There can be different types of matches." item="_bpgJ8HmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8J3UXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bpKLsHmREe2LqKx8duSOsA" sourceConnectionVisual="_bpKLsXmREe2LqKx8duSOsA" text="A winner is chosen and earns points.&#xD;&#xA;&#x9; * A description of the match is displayed.&#xD;&#xA;&#x9; * @param a one competitor&#xD;&#xA;&#x9; * @param b another competitor" item="_bpgxE3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8J3UnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bpKywHmREe2LqKx8duSOsA" sourceConnectionVisual="_bpKywXmREe2LqKx8duSOsA" text=".&#xD;&#xA;     * @param c1 Competitor 1&#xD;&#xA;     * @param c2 Competitor 2" item="_bpgxHHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8J3U3mREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bpKywnmREe2LqKx8duSOsA" sourceConnectionVisual="_bpLZ0HmREe2LqKx8duSOsA" text="add &#xD;&#xA;     * @param o match observer" item="_bpgxJXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8OIwHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bpLZ0XmREe2LqKx8duSOsA" sourceConnectionVisual="_bpLZ0nmREe2LqKx8duSOsA" text="remove &#xD;&#xA;     * @param o match observer" item="_bpgxK3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8OIwXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bsjd8HmREe2LqKx8duSOsA" sourceConnectionVisual="_btGQgHmREe2LqKx8duSOsA" text="Leagues are played in two-legged matches" item="_bt4ToHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8HbEHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_btR2sHmREe2LqKx8duSOsA" sourceConnectionVisual="_btkKkHmREe2LqKx8duSOsA" text="A sport competition is defined as matches played between competitors." item="_b3F6AHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ToUnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_btocAHmREe2LqKx8duSOsA" sourceConnectionVisual="_btw-4HmREe2LqKx8duSOsA" text="All the competitors&#xD;&#xA;&#x9; * @return list of competitors" item="_b3F6FnmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ToU3mREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_btxl8HmREe2LqKx8duSOsA" sourceConnectionVisual="_btyNAHmREe2LqKx8duSOsA" text="Organizes the players of the competition in several matches&#xD;&#xA;&#x9; * Each match is played&#xD;&#xA;&#x9; * A competition is finished when all its matches have been played&#xD;&#xA;&#x9; * A ranking of the competitors is made&#xD;&#xA;&#x9; * The winner is displayed&#xD;&#xA;&#x9; * @throws Exception" item="_b3F6IXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8WroHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_btzbIHmREe2LqKx8duSOsA" sourceConnectionVisual="_btzbIXmREe2LqKx8duSOsA" text="changes the match&#xD;&#xA;&#x9; * @param match" item="_b3F6OXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8UPYHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bt0CMHmREe2LqKx8duSOsA" sourceConnectionVisual="_bt0CMXmREe2LqKx8duSOsA" text="add points to the competitor&#xD;&#xA;&#x9; * @param competitor" item="_b3F6P3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8UPYXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bvs4kHmREe2LqKx8duSOsA" sourceConnectionVisual="_bvs4kXmREe2LqKx8duSOsA" text="Direct elimination tournaments are held over several rounds." item="_bv00YHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ICIHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_byz28HmREe2LqKx8duSOsA" sourceConnectionVisual="_by0eAHmREe2LqKx8duSOsA" text="import select.*;*" item="_bzWpgHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8OIwnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzJ1MHmREe2LqKx8duSOsA" sourceConnectionVisual="_bzJ1MXmREe2LqKx8duSOsA" text="@return the Selection" item="_bzWpnHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaMnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzKcQHmREe2LqKx8duSOsA" sourceConnectionVisual="_bzKcQXmREe2LqKx8duSOsA" text="@return List of selected Competitor" item="_bzWppHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8TBQHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzLDUHmREe2LqKx8duSOsA" sourceConnectionVisual="_bzLqYHmREe2LqKx8duSOsA" text="Set a new Selection if you want to change the selection&#xD;&#xA;     * @param newselection" item="_bzWpsXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaM3mREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzLqYXmREe2LqKx8duSOsA" sourceConnectionVisual="_bzMRcHmREe2LqKx8duSOsA" text="Construct a Master &#xD;&#xA;     * @param comp List&lt;Competitor> the competitor&#xD;&#xA;     * @param selection it's a class which implement the interace select the way to select competitor &#xD;&#xA;     * @param NbGroup number of group for the groupStage&#xD;&#xA;     * @param NbComPerGroups number of Competitor per Group for the groupStage" item="_bzWpyHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaMHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzM4gHmREe2LqKx8duSOsA" sourceConnectionVisual="_bzM4gXmREe2LqKx8duSOsA" text="@return True if there is enough competitor for the Master else false" item="_bzWp2nmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaMXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzNfkHmREe2LqKx8duSOsA" sourceConnectionVisual="_bzOtsHmREe2LqKx8duSOsA" text="Create and play a Tournament with the list given in parameter&#xD;&#xA;     * @param comp Competitor's List&#xD;&#xA;     * @throws Exception" item="_bzWp4nmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaNHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzQi4HmREe2LqKx8duSOsA" sourceConnectionVisual="_bzQi4XmREe2LqKx8duSOsA" text="Create and play a GroupStage with the list given in parameter&#xD;&#xA;     * @param comp Competitor's List&#xD;&#xA;     * @throws Exception" item="_bzWp6HmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaNXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bzQi4nmREe2LqKx8duSOsA" sourceConnectionVisual="_bzRJ8HmREe2LqKx8duSOsA" text="@param comp CompetitorList &#xD;&#xA;     * Before starting Master we will check if there is enough Competitor if not will send a message and nothing will happen, this competition take place in 2 phases, the first one is a groupstage.&#xD;&#xA;     * After groupstage done we will select and the selected competitor will play a tournament and give the winner of this Master.&#xD;&#xA;     * @throws Exception" item="_bzWp7nmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8SaNnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b2SowXmREe2LqKx8duSOsA" sourceConnectionVisual="_b2TP0HmREe2LqKx8duSOsA" text="Getters&#xD;&#xA;     * @return the list of League in competition" item="_b2W6R3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8TBQ3mREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b2T24HmREe2LqKx8duSOsA" sourceConnectionVisual="_b2T24XmREe2LqKx8duSOsA" text="constructor&#xD;&#xA;     * @param competitors (List&lt;Competitor>) is Competitors's list'&#xD;&#xA;     * @param NbGroup (int) number of groups&#xD;&#xA;     * @param NbComParGroups (int) number of competitor per groups" item="_b2W6Y3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8TBQnmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b2T24nmREe2LqKx8duSOsA" sourceConnectionVisual="_b2T243mREe2LqKx8duSOsA" text="Generate the Leagues from the list in param&#xD;&#xA;     * @param comp (List&lt;Competitor>) is the of competitor" item="_b2W6dXmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ToUHmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b2Ud8HmREe2LqKx8duSOsA" sourceConnectionVisual="_b2Ud8XmREe2LqKx8duSOsA" text="Play every League generate by (generateLeagues) method&#xD;&#xA;     * @param competitors (List&lt;Competitor>) is the of competitor&#xD;&#xA;     * @throws Exception" item="_b2W6e3mREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z8ToUXmREe2LqKx8duSOsA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bn1WAHmREe2LqKx8duSOsA" name="InterfaceMatch" associationsIn="_bnjCIHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcEpEHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bn1WAXmREe2LqKx8duSOsA" position="10.0,2261.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bn1WAnmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bn1WA3mREe2LqKx8duSOsA" name="observers">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcF3MHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bn1WBHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bn1WBXmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_bn1WBnmREe2LqKx8duSOsA" name="MatchObserverInterface">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z45H8HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bn1WB3mREe2LqKx8duSOsA" name="Versus">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3EjAHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bn1WCHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bn1WCXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bn1WCnmREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3FKEHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bn1WC3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bn1WDHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bn1WDXmREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3FKEXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bn1WDnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bn1WD3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bn1WEHmREe2LqKx8duSOsA" name="observate">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3FxIHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bn1WEXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bn1WEnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bn1WE3mREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3FxIXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bn1WFHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bn1WFXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bn1WFnmREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3FxInmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bn1WF3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bn1WGHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bn1WGXmREe2LqKx8duSOsA" name="addObserver">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z46WEHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bn1WGnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bn1WG3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bn1WHHmREe2LqKx8duSOsA" name="o">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z46WEXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bn1WHXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bn1WHnmREe2LqKx8duSOsA" name="MatchObserverInterface">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z45H8HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_brP2YHmREe2LqKx8duSOsA" name="MapUtil">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeMI8HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_brP2YXmREe2LqKx8duSOsA" position="1143.0,2268.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_brP2YnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_brP2Y3mREe2LqKx8duSOsA" name="sortByDescendingValue" staticOperation="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z52KMHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_brP2ZHmREe2LqKx8duSOsA" name="TypeParameterDeclaration">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z57CsHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_brP2ZXmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z57CsXmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_brP2ZnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z58Q0XmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_brP2Z3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_brP2aHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_brP2aXmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z58Q0HmREe2LqKx8duSOsA"/>
+        <type xmi:id="_brP2anmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_brP2a3mREe2LqKx8duSOsA" name="map">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z56boHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_brP2bHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_brP2bXmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b47tEHmREe2LqKx8duSOsA" name="NotPowerOfTwoException">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb30wHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b47tEXmREe2LqKx8duSOsA" position="487.0,2268.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b47tEnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_b47tE3mREe2LqKx8duSOsA" name="NotPowerOfTwoException">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb4b0HmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_b47tFHmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_b47tFXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b47tFnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b47tF3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb4b1HmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b47tGHmREe2LqKx8duSOsA" name="NotPowerOfTwoException">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb30wHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b47tGXmREe2LqKx8duSOsA" name="msg">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb4b0XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b47tGnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b47tG3mREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b7DM8HmREe2LqKx8duSOsA" name="CompetitionMain">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb6RAHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b7DM8XmREe2LqKx8duSOsA" position="1625.0,2268.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b7DM8nmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_b7DM83mREe2LqKx8duSOsA" name="main" staticOperation="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb8GMHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b7DM9HmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b7DM9XmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b7DM9nmREe2LqKx8duSOsA" name="args">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zb8GMXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b7DM93mREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_b7DM-HmREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b8ZQwHmREe2LqKx8duSOsA" name="MasterMain">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcBlwHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b8ZQwXmREe2LqKx8duSOsA" position="1937.0,2268.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b8ZQwnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_b8ZQw3mREe2LqKx8duSOsA" name="main" staticOperation="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcDa8HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b8ZQxHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b8ZQxXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b8ZQxnmREe2LqKx8duSOsA" name="args">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcDa8XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b8ZQx3mREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_b8ZQyHmREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_cAKWcHmREe2LqKx8duSOsA" name="Selection" associationsIn="_bzU0UHmREe2LqKx8duSOsA" subclassedBy="_b-W_oHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeK60HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_cAKWcXmREe2LqKx8duSOsA" position="2741.0,45.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cAKWcnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_cAKWc3mREe2LqKx8duSOsA" name="select">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4F2sHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_cAKWdHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_cAKWdXmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_cAKWdnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4F2snmREe2LqKx8duSOsA"/>
+        <type xmi:id="_cAK9gHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_cAK9gXmREe2LqKx8duSOsA" name="g">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4F2sXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_cAK9gnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_cAK9g3mREe2LqKx8duSOsA" name="GroupStage">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdZewHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bpgJ8HmREe2LqKx8duSOsA" comments="_bo0NcHmREe2LqKx8duSOsA" targetConnectionVisual="_bpAasHmREe2LqKx8duSOsA" name="Match" abstractClass="true" associationsIn="_bpIWgHmREe2LqKx8duSOsA" associationsOut="_boVFQHmREe2LqKx8duSOsA _bpI9kHmREe2LqKx8duSOsA" subclassedBy="_bpBBwHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcNL8HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bpgJ8XmREe2LqKx8duSOsA" position="1396.0,61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bpgJ8nmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bpgJ83mREe2LqKx8duSOsA" name="competition">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6FawHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bpgJ9HmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Go4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bpgJ9XmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bpgJ9nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bpgJ93mREe2LqKx8duSOsA" name="Competition">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bpgJ-HmREe2LqKx8duSOsA" name="observers">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Go4XmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bpgJ-XmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6HP8HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bpgJ-nmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bpgJ-3mREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_bpgJ_HmREe2LqKx8duSOsA" name="MatchObserver">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bpgxAHmREe2LqKx8duSOsA" name="getCompetition">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcPBIHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxAXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxAnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bpgxA3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Me0nmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bpgxBHmREe2LqKx8duSOsA" name="Competition">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bpgxBXmREe2LqKx8duSOsA" name="getMatchObserver">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcWV4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxBnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxB3mREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bpgxCHmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcWV4XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bpgxCXmREe2LqKx8duSOsA" name="MatchObserver">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bpgxCnmREe2LqKx8duSOsA" name="Match">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3KCkHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bpgxC3mREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bpgxDHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxDXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bpgxDnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Me0XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bpgxD3mREe2LqKx8duSOsA" name="Match">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcNL8HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bpgxEHmREe2LqKx8duSOsA" name="competition">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3KCkXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxEXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxEnmREe2LqKx8duSOsA" name="Competition">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bpgxE3mREe2LqKx8duSOsA" comments="_bpKLsHmREe2LqKx8duSOsA" targetConnectionVisual="_bpKLsXmREe2LqKx8duSOsA" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Me03mREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxFHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxFXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bpgxFnmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3NF4HmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxF3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxGHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bpgxGXmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3NF4XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxGnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxG3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bpgxHHmREe2LqKx8duSOsA" comments="_bpKywHmREe2LqKx8duSOsA" targetConnectionVisual="_bpKywXmREe2LqKx8duSOsA" name="observate">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Ns8HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxHXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxHnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bpgxH3mREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Ns8XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxIHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxIXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bpgxInmREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Ns8nmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxI3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxJHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bpgxJXmREe2LqKx8duSOsA" comments="_bpKywnmREe2LqKx8duSOsA" targetConnectionVisual="_bpLZ0HmREe2LqKx8duSOsA" name="addObserver">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3OUAHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxJnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxJ3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bpgxKHmREe2LqKx8duSOsA" name="o">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3OUAXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxKXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxKnmREe2LqKx8duSOsA" name="MatchObserver">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bpgxK3mREe2LqKx8duSOsA" comments="_bpLZ0XmREe2LqKx8duSOsA" targetConnectionVisual="_bpLZ0nmREe2LqKx8duSOsA" name="removeObserver">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3O7EHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxLHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxLXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bpgxLnmREe2LqKx8duSOsA" name="o">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3O7EXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxL3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxMHmREe2LqKx8duSOsA" name="MatchObserver">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bpgxMXmREe2LqKx8duSOsA" abstractOperation="true" name="chooseWinner">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3O7EnmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bpgxMnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bpgxM3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bpgxNHmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3SlcHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bpgxNXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bpgxNnmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3O7E3mREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxN3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxOHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bpgxOXmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3O7FHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bpgxOnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bpgxO3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bkGFgHmREe2LqKx8duSOsA" name="MatchObserver" associationsIn="_boVFQHmREe2LqKx8duSOsA _b1G9AHmREe2LqKx8duSOsA" subclassedBy="_bk1FUHmREe2LqKx8duSOsA _bl2ZAHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bkGFgXmREe2LqKx8duSOsA" position="2119.0,48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bkGFgnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_bkGFg3mREe2LqKx8duSOsA" name="followMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2EdcHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bkGFhHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bkGFhXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bkGFhnmREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2FEgHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bkGFh3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bkGFiHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bkGFiXmREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2FEgXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bkGFinmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bkGFi3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bmX9eXmREe2LqKx8duSOsA" name="Bookmaker" associationsOut="_bmX9cHmREe2LqKx8duSOsA" generalizations="_bl2ZAHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdIZAHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bmX9enmREe2LqKx8duSOsA" position="1942.0,289.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bmX9e3mREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bmX9fHmREe2LqKx8duSOsA" name="competitorsOdds">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6QZ4HmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bmX9fXmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6TdMHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bmX9fnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6TdMXmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bmX9f3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bmX9gHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bmX9gXmREe2LqKx8duSOsA" name="HashMap">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2TuAHmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bmX9gnmREe2LqKx8duSOsA" name="Bookmaker">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdJAEHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bmX9g3mREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bmX9hHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bmX9hXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bmX9hnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdJnInmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bmX9h3mREe2LqKx8duSOsA" name="Bookmaker">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdIZAHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bmX9iHmREe2LqKx8duSOsA" name="getCompetitorsOdds">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdKOMHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bmX9iXmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdRi8HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bmX9inmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bmX9i3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bmX9jHmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5dIoHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bmX9jXmREe2LqKx8duSOsA" name="HashMap">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2TuAHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bmX9jnmREe2LqKx8duSOsA" name="followMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3n8oHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bmX9j3mREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3ojsHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bmX9kHmREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3ojsXmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bmX9kXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bmX9knmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bmX9k3mREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3n8oXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bmX9lHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bmX9lXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bmX9lnmREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3n8onmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bmX9l3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bmX9mHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bmX9mXmREe2LqKx8duSOsA" comments="_bmKiEHmREe2LqKx8duSOsA" targetConnectionVisual="_bmR20HmREe2LqKx8duSOsA" name="addCompetitorsOdds">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5dIoXmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bmX9mnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bmX9m3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bmX9nHmREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5dIonmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bmX9nXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bmX9nnmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_blPVAHmREe2LqKx8duSOsA" name="Journalist" generalizations="_bk1FUHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaetoHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_blPVAXmREe2LqKx8duSOsA" position="2485.0,300.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_blPVAnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_blPVA3mREe2LqKx8duSOsA" name="followMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2RRwHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_blPVBHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2Sf4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_blPVBXmREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2TG8HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_blPVBnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_blPVB3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_blP8EHmREe2LqKx8duSOsA" name="c1">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2R40HmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_blP8EXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_blP8EnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_blP8E3mREe2LqKx8duSOsA" name="c2">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2R40XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_blP8FHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_blP8FXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bnPgIHmREe2LqKx8duSOsA" comments="_bm6wAHmREe2LqKx8duSOsA" targetConnectionVisual="_bnNq8HmREe2LqKx8duSOsA" name="RandomMatch" generalizations="_bpBBwHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Za16AHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bnPgIXmREe2LqKx8duSOsA" position="1755.0,526.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bnPgInmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_bnPgI3mREe2LqKx8duSOsA" name="RandomMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2sIgHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bnPgJHmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bnPgJXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bnPgJnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bnPgJ3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2svknmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bnPgKHmREe2LqKx8duSOsA" name="RandomMatch">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Za16AHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bnPgKXmREe2LqKx8duSOsA" name="competition">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2sIgXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bnPgKnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bnPgK3mREe2LqKx8duSOsA" name="Competition">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bnPgLHmREe2LqKx8duSOsA" name="chooseWinner">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2tWoHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bnPgLXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bnPgLnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bnPgL3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2t9sXmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bnPgMHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bnPgMXmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2tWoXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bnPgMnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bnPgM3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bnPgNHmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2t9sHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bnPgNXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bnPgNnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b_ExUHmREe2LqKx8duSOsA" name="FirstSelected" generalizations="_b-W_oHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeDmEHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b_ExUXmREe2LqKx8duSOsA" position="909.0,87.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b_ExUnmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_b_ExU3mREe2LqKx8duSOsA" name="select">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4FPoHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b_ExVHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b_ExVXmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_b_ExVnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4FPonmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b_ExV3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b_ExWHmREe2LqKx8duSOsA" name="g">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4FPoXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b_ExWXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b_ExWnmREe2LqKx8duSOsA" name="GroupStage">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdZewHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b3F6AHmREe2LqKx8duSOsA" comments="_btR2sHmREe2LqKx8duSOsA" targetConnectionVisual="_btkKkHmREe2LqKx8duSOsA" name="Competition" abstractClass="true" associationsIn="_bpI9kHmREe2LqKx8duSOsA" associationsOut="_btQokHmREe2LqKx8duSOsA _bpIWgHmREe2LqKx8duSOsA" subclassedBy="_btOzYHmREe2LqKx8duSOsA _bvOXcHmREe2LqKx8duSOsA _byJIkHmREe2LqKx8duSOsA _b1k3EHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b3F6AXmREe2LqKx8duSOsA" position="952.0,288.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b3F6AnmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_b3F6A3mREe2LqKx8duSOsA" name="competitors">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6g4kHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b3F6BHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6iGsHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b3F6BXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b3F6BnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_b3F6B3mREe2LqKx8duSOsA" name="Competitor">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b3F6CHmREe2LqKx8duSOsA" name="points">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6iGsXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b3F6CXmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6itwHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b3F6CnmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b3F6C3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_b3F6DHmREe2LqKx8duSOsA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b3F6DXmREe2LqKx8duSOsA" name="match">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6sewHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6DnmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b3F6D3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_b3F6EHmREe2LqKx8duSOsA" name="Match">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcNL8HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_b3F6EXmREe2LqKx8duSOsA" name="getMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdwrIHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6EnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6E3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b3F6FHmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z35pcHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b3F6FXmREe2LqKx8duSOsA" name="Match">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcNL8HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b3F6FnmREe2LqKx8duSOsA" comments="_btocAHmREe2LqKx8duSOsA" targetConnectionVisual="_btw-4HmREe2LqKx8duSOsA" name="getCompetitors">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdwrIXmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6F3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6GHmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_b3F6GXmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdxSMHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b3F6GnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b3F6G3mREe2LqKx8duSOsA" name="getPoints">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdx5QHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b3F6HHmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zd3_4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b3F6HXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6HnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b3F6H3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5xRsHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b3F6IHmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b3F6IXmREe2LqKx8duSOsA" comments="_btxl8HmREe2LqKx8duSOsA" targetConnectionVisual="_btyNAHmREe2LqKx8duSOsA" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zd5OAHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6InmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6I3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_b3F6JHmREe2LqKx8duSOsA" abstractOperation="true" name="affichage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zd51EHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6JXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6JnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_b3F6J3mREe2LqKx8duSOsA" abstractOperation="true" name="Ranking">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zd51EXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b3F6KHmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zd8RUHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b3F6KXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6KnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b3F6K3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5zG4HmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b3F6LHmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b3F6LXmREe2LqKx8duSOsA" name="addObserver">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z36QgHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6LnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6L3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6MHmREe2LqKx8duSOsA" name="obs">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z36QgXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6MXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6MnmREe2LqKx8duSOsA" name="MatchObserver">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6M3mREe2LqKx8duSOsA" name="setPoint">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z37eoHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6NHmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b3F6NXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6NnmREe2LqKx8duSOsA" name="competitor">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z37eoXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6N3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6OHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6OXmREe2LqKx8duSOsA" comments="_btzbIHmREe2LqKx8duSOsA" targetConnectionVisual="_btzbIXmREe2LqKx8duSOsA" name="setMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z38FsHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6OnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6O3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6PHmREe2LqKx8duSOsA" name="match">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z38FsXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6PXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6PnmREe2LqKx8duSOsA" name="Match">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcNL8HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6P3mREe2LqKx8duSOsA" comments="_bt0CMHmREe2LqKx8duSOsA" targetConnectionVisual="_bt0CMXmREe2LqKx8duSOsA" name="addPoints">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z38FsnmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6QHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6QXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6QnmREe2LqKx8duSOsA" name="competitor">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z38Fs3mREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6Q3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6RHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6RXmREe2LqKx8duSOsA" abstractOperation="true" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z38swHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6RnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6R3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6SHmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z39T0HmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6SXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6SnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b3F6S3mREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z39T0XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6THmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6TXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6TnmREe2LqKx8duSOsA" name="Competition">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5sZMHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_b3F6T3mREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_b3F6UHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b3F6UXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b3F6UnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5tAQnmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b3F6U3mREe2LqKx8duSOsA" name="Competition">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdtn0HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b3F6VHmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5sZMXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6VXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6VnmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b3F6V3mREe2LqKx8duSOsA" abstractOperation="true" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5xRsXmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b3F6WHmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b3F6WXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b3F6WnmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5x4wHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b3F6W3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b3F6XHmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bh3Q4HmREe2LqKx8duSOsA" comments="_bhsRwHmREe2LqKx8duSOsA" targetConnectionVisual="_bhuG8HmREe2LqKx8duSOsA" name="Competitor" associationsIn="_btQokHmREe2LqKx8duSOsA _buafIHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bh3Q4XmREe2LqKx8duSOsA" position="458.0,248.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bh3Q4nmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bh3Q43mREe2LqKx8duSOsA" name="name">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6EzsHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bh3Q5HmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bh3Q5XmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bh3Q5nmREe2LqKx8duSOsA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bh3Q53mREe2LqKx8duSOsA" name="Competitor">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbpLQHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bh3Q6HmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bh3Q6XmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bh3Q6nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bh3Q63mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zbuq0XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bh3Q7HmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bh3Q7XmREe2LqKx8duSOsA" name="name">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbpLQXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bh3Q7nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bh3Q73mREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bh3Q8HmREe2LqKx8duSOsA" name="toString">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbvR4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bh3Q8XmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bh3Q8nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bh3Q83mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbvR4XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bh3Q9HmREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bh3Q9XmREe2LqKx8duSOsA" name="hashCode">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zbv48HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bh3Q9nmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bh3Q93mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bh3Q-HmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zbv48XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bh3Q-XmREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bh3Q-nmREe2LqKx8duSOsA" name="equals">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4v-AHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bh3Q-3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bh3Q_HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bh3Q_XmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z42EoHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bh3Q_nmREe2LqKx8duSOsA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bh3Q_3mREe2LqKx8duSOsA" name="o">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4v-AXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bh3RAHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bh3RAXmREe2LqKx8duSOsA" name="Object">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4uv4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bzWpgHmREe2LqKx8duSOsA" comments="_byz28HmREe2LqKx8duSOsA" targetConnectionVisual="_by0eAHmREe2LqKx8duSOsA" name="Master" associationsOut="_bw3WMHmREe2LqKx8duSOsA _bzU0UHmREe2LqKx8duSOsA _bzWCcHmREe2LqKx8duSOsA" generalizations="_byJIkHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zch8EHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bzWpgXmREe2LqKx8duSOsA" position="580.0,935.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bzWpgnmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bzWpg3mREe2LqKx8duSOsA" name="NbGroup">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6H3AHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWphHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6IeEHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWphXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWphnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bzWph3mREe2LqKx8duSOsA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bzWpiHmREe2LqKx8duSOsA" name="NbComPerGroups">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6IeEXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpiXmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6IeEnmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWpinmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWpi3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bzWpjHmREe2LqKx8duSOsA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bzWpjXmREe2LqKx8duSOsA" name="selection">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6IeE3mREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpjnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6JsMHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWpj3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWpkHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bzWpkXmREe2LqKx8duSOsA" name="Selection">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeK60HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bzWpknmREe2LqKx8duSOsA" name="groupStage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6JsMXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpk3mREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6OksHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWplHmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWplXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bzWplnmREe2LqKx8duSOsA" name="GroupStage">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdZewHmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bzWpl3mREe2LqKx8duSOsA" name="tournament">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6OksXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpmHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6PLwHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWpmXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWpmnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bzWpm3mREe2LqKx8duSOsA" name="Tournament">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Za-c4HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bzWpnHmREe2LqKx8duSOsA" comments="_bzJ1MHmREe2LqKx8duSOsA" targetConnectionVisual="_bzJ1MXmREe2LqKx8duSOsA" name="getSelection">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcpQ0HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWpnXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWpnnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bzWpn3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3Xd8HmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bzWpoHmREe2LqKx8duSOsA" name="Selection">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeK60HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bzWpoXmREe2LqKx8duSOsA" name="affichage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcrtEHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWponmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWpo3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bzWppHmREe2LqKx8duSOsA" comments="_bzKcQHmREe2LqKx8duSOsA" targetConnectionVisual="_bzKcQXmREe2LqKx8duSOsA" name="select">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcsUIHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWppXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWppnmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bzWpp3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZcsUIXmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bzWpqHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bzWpqXmREe2LqKx8duSOsA" name="Ranking">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zcs7MHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpqnmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zc0P8HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bzWpq3mREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zc03AHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bzWprHmREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zc1eEHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWprXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWprnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bzWpr3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5YQIHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bzWpsHmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bzWpsXmREe2LqKx8duSOsA" comments="_bzLDUHmREe2LqKx8duSOsA" targetConnectionVisual="_bzLqYHmREe2LqKx8duSOsA" name="setSelection">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3YFAHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWpsnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWps3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWptHmREe2LqKx8duSOsA" name="newselection">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3YFAXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWptXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWptnmREe2LqKx8duSOsA" name="Selection">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeK60HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWpt3mREe2LqKx8duSOsA" name="setPoint">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3YFAnmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWpuHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWpuXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWpunmREe2LqKx8duSOsA" name="competitor">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3YFA3mREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWpu3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWpvHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWpvXmREe2LqKx8duSOsA" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3cWcHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bzWpvnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3c9gHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bzWpv3mREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3gA0HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bzWpwHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWpwXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWpwnmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3cWcXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWpw3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWpxHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bzWpxXmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3cWcnmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWpxnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWpx3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWpyHmREe2LqKx8duSOsA" comments="_bzLqYXmREe2LqKx8duSOsA" targetConnectionVisual="_bzMRcHmREe2LqKx8duSOsA" name="Master">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4_1oHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bzWpyXmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bzWpynmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWpy3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bzWpzHmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5CR4nmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bzWpzXmREe2LqKx8duSOsA" name="Master">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zch8EHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bzWpznmREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4_1oXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWpz3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp0HmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bzWp0XmREe2LqKx8duSOsA" name="selection">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4_1onmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp0nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp03mREe2LqKx8duSOsA" name="Selection">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZeK60HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bzWp1HmREe2LqKx8duSOsA" name="NbGroup">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4_1o3mREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp1XmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp1nmREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bzWp13mREe2LqKx8duSOsA" name="NbComPerGroups">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5BDwHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp2HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp2XmREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWp2nmREe2LqKx8duSOsA" comments="_bzM4gHmREe2LqKx8duSOsA" targetConnectionVisual="_bzM4gXmREe2LqKx8duSOsA" name="checkNbCompetitor">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5I_kHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWp23mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bzWp3HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bzWp3XmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5I_knmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bzWp3nmREe2LqKx8duSOsA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bzWp33mREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5I_kXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp4HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp4XmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWp4nmREe2LqKx8duSOsA" comments="_bzNfkHmREe2LqKx8duSOsA" targetConnectionVisual="_bzOtsHmREe2LqKx8duSOsA" name="playTournament">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5SwkHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWp43mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWp5HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWp5XmREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5SwkXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp5nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp53mREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWp6HmREe2LqKx8duSOsA" comments="_bzQi4HmREe2LqKx8duSOsA" targetConnectionVisual="_bzQi4XmREe2LqKx8duSOsA" name="playGroupStage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5UlwHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWp6XmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWp6nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWp63mREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5UlwXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp7HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp7XmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bzWp7nmREe2LqKx8duSOsA" comments="_bzQi4nmREe2LqKx8duSOsA" targetConnectionVisual="_bzRJ8HmREe2LqKx8duSOsA" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5Vz4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bzWp73mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_bzWp8HmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzWp8XmREe2LqKx8duSOsA" name="comp">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5Vz4XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bzWp8nmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bzWp83mREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bv00YHmREe2LqKx8duSOsA" comments="_bvs4kHmREe2LqKx8duSOsA" targetConnectionVisual="_bvs4kXmREe2LqKx8duSOsA" name="Tournament" associationsIn="_bw3WMHmREe2LqKx8duSOsA" associationsOut="_buafIHmREe2LqKx8duSOsA" generalizations="_bvOXcHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Za-c4HmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bv00YXmREe2LqKx8duSOsA" position="80.0,1034.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bv00YnmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_bv00Y3mREe2LqKx8duSOsA" name="winner">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6C-gHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bv00ZHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6EMoHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bv00ZXmREe2LqKx8duSOsA" label="~"/>
+      <cardinality xmi:id="_bv00ZnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_bv00Z3mREe2LqKx8duSOsA" name="Competitor">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bv00aHmREe2LqKx8duSOsA" name="powerOfTwo" staticOperation="true">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbG_wHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00aXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00anmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bv00a3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbHm0XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bv00bHmREe2LqKx8duSOsA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bv00bXmREe2LqKx8duSOsA" name="n">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbHm0HmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00bnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00b3mREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bv00cHmREe2LqKx8duSOsA" name="toString">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbIN4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00cXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00cnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bv00c3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbI08HmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bv00dHmREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bv00dXmREe2LqKx8duSOsA" name="affichage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbI08XmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00dnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00d3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bv00eHmREe2LqKx8duSOsA" name="Ranking">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbI08nmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bv00eXmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbO7kHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bv00enmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbQJsHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bv00e3mREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZbR-4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bv00fHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00fXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bv00fnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4qecHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bv00f3mREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bv00gHmREe2LqKx8duSOsA" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z215gHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00gXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00gnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bv00g3mREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z215gXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00hHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00hXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bv00hnmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z23HoHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00h3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00iHmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bv00iXmREe2LqKx8duSOsA" name="Tournament">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4gtcHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bv00inmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bv00i3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00jHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bv00jXmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4gtdHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bv00jnmREe2LqKx8duSOsA" name="Tournament">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Za-c4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bv00j3mREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4gtcXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00kHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00kXmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bv00knmREe2LqKx8duSOsA" name="playOneRound">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4iioHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00k3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00lHmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bv00lXmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4jJsHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bv00lnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bv00l3mREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4iioXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00mHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00mXmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bv00mnmREe2LqKx8duSOsA" name="playTournament">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4kX0HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00m3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00nHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bv00nXmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4kX0XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00nnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00n3mREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bv00oHmREe2LqKx8duSOsA" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4ll8HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bv00oXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bv00onmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bv00o3mREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4ll8XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bv00pHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bv00pXmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b2W6MHmREe2LqKx8duSOsA" name="GroupStage" associationsIn="_bzWCcHmREe2LqKx8duSOsA" associationsOut="_b0QBYHmREe2LqKx8duSOsA _b1G9AHmREe2LqKx8duSOsA" generalizations="_b1k3EHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdZewHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_b2W6MXmREe2LqKx8duSOsA" position="1659.0,981.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b2W6MnmREe2LqKx8duSOsA" label="+"/>
+    <attributes xmi:id="_b2W6M3mREe2LqKx8duSOsA" name="NbGroup">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6XHkHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6NHmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6XuoHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6NXmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b2W6NnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_b2W6N3mREe2LqKx8duSOsA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b2W6OHmREe2LqKx8duSOsA" name="NbComParGroups">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6XuoXmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6OXmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6XuonmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6OnmREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b2W6O3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <type xmi:id="_b2W6PHmREe2LqKx8duSOsA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b2W6PXmREe2LqKx8duSOsA" name="Leagues">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6YVsHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6PnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6YVsnmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6P3mREe2LqKx8duSOsA" label="#"/>
+      <cardinality xmi:id="_b2W6QHmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_b2W6QXmREe2LqKx8duSOsA" name="League">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zai_EHmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b2W6QnmREe2LqKx8duSOsA" name="observers">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Y8wHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6Q3mREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z6Y8wnmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6RHmREe2LqKx8duSOsA" label="-"/>
+      <cardinality xmi:id="_b2W6RXmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_b2W6RnmREe2LqKx8duSOsA" name="MatchObserver">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaTHcHmREe2LqKx8duSOsA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_b2W6R3mREe2LqKx8duSOsA" comments="_b2SowXmREe2LqKx8duSOsA" targetConnectionVisual="_b2TP0HmREe2LqKx8duSOsA" name="getLeagues">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdb7AHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b2W6SHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6SXmREe2LqKx8duSOsA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_b2W6SnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdciEHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b2W6S3mREe2LqKx8duSOsA" name="League">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zai_EHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b2W6THmREe2LqKx8duSOsA" name="Ranking">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zde-UHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6TXmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdiBoHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_b2W6TnmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zdkd4HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_b2W6T3mREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdlE8HmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6UHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6UXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2W6UnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5p88XmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b2W6U3mREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_b2W6VHmREe2LqKx8duSOsA" name="affichage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdlE8nmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6VXmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdlsAHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6VnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6V3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_b2W6WHmREe2LqKx8duSOsA" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3sOEHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_b2W6WXmREe2LqKx8duSOsA" name="LegacyStyledElement">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3v4cHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_b2W6WnmREe2LqKx8duSOsA" name="Annotations">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3yUsHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_b2W6W3mREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6XHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b2W6XXmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3vRYHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6XnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6X3mREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2W6YHmREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z3vRYXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6YXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6YnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2W6Y3mREe2LqKx8duSOsA" comments="_b2T24HmREe2LqKx8duSOsA" targetConnectionVisual="_b2T24XmREe2LqKx8duSOsA" name="GroupStage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5fk4HmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_b2W6ZHmREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_b2W6ZXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6ZnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b2W6Z3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5gL9nmREe2LqKx8duSOsA"/>
+        <type xmi:id="_b2W6aHmREe2LqKx8duSOsA" name="GroupStage">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZdZewHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b2W6aXmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5gL8HmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6anmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6a3mREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2W6bHmREe2LqKx8duSOsA" name="NbGroup">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5gL8XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6bXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6bnmREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2W6b3mREe2LqKx8duSOsA" name="NbComParGroups">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5gL8nmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6cHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6cXmREe2LqKx8duSOsA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b2W6cnmREe2LqKx8duSOsA" name="observers">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5gL83mREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6c3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6dHmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2W6dXmREe2LqKx8duSOsA" comments="_b2T24nmREe2LqKx8duSOsA" targetConnectionVisual="_b2T243mREe2LqKx8duSOsA" name="generateLeagues">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5m5oHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b2W6dnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6d3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b2W6eHmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5m5oXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6eXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6enmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b2W6e3mREe2LqKx8duSOsA" comments="_b2Ud8HmREe2LqKx8duSOsA" targetConnectionVisual="_b2Ud8XmREe2LqKx8duSOsA" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5oHwXmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_b2W6fHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_b2W6fXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_b2W6fnmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z5oHwnmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_b2W6f3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_b2W6gHmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bt4ToHmREe2LqKx8duSOsA" comments="_bsjd8HmREe2LqKx8duSOsA" targetConnectionVisual="_btGQgHmREe2LqKx8duSOsA" name="League" associationsIn="_b0QBYHmREe2LqKx8duSOsA" generalizations="_btOzYHmREe2LqKx8duSOsA">
+    <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zai_EHmREe2LqKx8duSOsA"/>
+    <visualProperties xmi:id="_bt4ToXmREe2LqKx8duSOsA" position="3098.0,897.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bt4TonmREe2LqKx8duSOsA" label="+"/>
+    <operations xmi:id="_bt4To3mREe2LqKx8duSOsA" name="Ranking">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaoeoHmREe2LqKx8duSOsA"/>
+      <stereotypes xmi:id="_bt4TpHmREe2LqKx8duSOsA" name="Generics">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaulQHmREe2LqKx8duSOsA"/>
+      </stereotypes>
+      <visibility xmi:id="_bt4TpXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4TpnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bt4Tp3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4ccAHmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bt4TqHmREe2LqKx8duSOsA" name="Map">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2c38HmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bt4TqXmREe2LqKx8duSOsA" name="affichage">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaxBgHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bt4TqnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4Tq3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_bt4TrHmREe2LqKx8duSOsA" name="toString">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaxokHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bt4TrXmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4TrnmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bt4Tr3mREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_ZaxokXmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bt4TsHmREe2LqKx8duSOsA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bt4TsXmREe2LqKx8duSOsA" name="playMatch">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2kMsHmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bt4TsnmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4Ts3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bt4TtHmREe2LqKx8duSOsA" name="a">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2kMsXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bt4TtXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bt4TtnmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bt4Tt3mREe2LqKx8duSOsA" name="b">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2kzwHmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bt4TuHmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bt4TuXmREe2LqKx8duSOsA" name="Competitor">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zblg4HmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bt4TunmREe2LqKx8duSOsA" name="League">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4YxoHmREe2LqKx8duSOsA"/>
+      <keywords xmi:id="_bt4Tu3mREe2LqKx8duSOsA" keyword="create"/>
+      <visibility xmi:id="_bt4TvHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4TvXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bt4TvnmREe2LqKx8duSOsA">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4Z_wXmREe2LqKx8duSOsA"/>
+        <type xmi:id="_bt4Tv3mREe2LqKx8duSOsA" name="League">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Zai_EHmREe2LqKx8duSOsA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bt4TwHmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4YxoXmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bt4TwXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bt4TwnmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bt4Tw3mREe2LqKx8duSOsA" name="play">
+      <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4bN4HmREe2LqKx8duSOsA"/>
+      <visibility xmi:id="_bt4TxHmREe2LqKx8duSOsA" label="+"/>
+      <cardinality xmi:id="_bt4TxXmREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bt4TxnmREe2LqKx8duSOsA" name="competitors">
+        <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z4bN4XmREe2LqKx8duSOsA"/>
+        <cardinality xmi:id="_bt4Tx3mREe2LqKx8duSOsA" label="1" max="1" min="1"/>
+        <type xmi:id="_bt4TyHmREe2LqKx8duSOsA" name="List">
+          <modelElement href="projet_coo_totoum_ishimwe_diallo.uml#_Z2YmgHmREe2LqKx8duSOsA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
