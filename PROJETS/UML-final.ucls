@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="game.war.Game" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="175" x="2768" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="game.Action" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/Action.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="175" x="1825" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="game.exceptions.CanNotDeployCharacterException" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/exceptions/CanNotDeployCharacterException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="225" x="3639" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="game.gui.GUIBoard" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/gui/GUIBoard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="108" x="1656" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="game.agri.tiles.Mountain" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/Mountain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="129" x="1229" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="game.UTILS" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/UTILS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="129" x="323" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="game.agri.AgriGameApp" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/AgriGameApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="681" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="game.agri.modes.Manual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/modes/Manual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="130" x="1209" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="game.war.actions.DeployArmy" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/DeployArmy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="231" x="704" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="game.gui.Leaderboard" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/gui/Leaderboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="235" x="408" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="game.agri.actions.FirstAction" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/FirstAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="185" x="1357" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="game.war.actions.random.DeployArmyAleatoire" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/random/DeployArmyAleatoire.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="196" x="447" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="game.war.resources.Corn" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Corn.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="94" x="2101" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="game.war.actions.manual.PayArmyManual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/manual/PayArmyManual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="172" x="1865" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="game.Character" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/Character.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="136" x="3107" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="game.war.actions.manual.DeployArmyManual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/manual/DeployArmyManual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="187" x="704" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="game.agri.AgriLeaderboard" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/AgriLeaderboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="235" x="135" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="game.agri.actions.PayWorker" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/PayWorker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="164" x="1618" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="game.war.tiles.WarTile" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/WarTile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="196" x="685" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="game.agri.resources.Gold" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/resources/Gold.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="95" x="2235" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="game.agri.tiles.AgriTile" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/AgriTile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="168" x="1889" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="game.agri.tiles.Desert" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/Desert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="130" x="1398" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="game.agri.actions.HarvestResources" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/HarvestResources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="479" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="game.agri.modes.Random" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/modes/Random.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="130" x="1379" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="game.war.resources.Sand" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Sand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="94" x="2370" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="game.Mode" project="l2s4-projet-2021" file="/l2s4-projet-2021/src/game/Mode.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="145" x="1804" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="game.war.actions.HarvestResources" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/HarvestResources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="1132" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="game.agri.Board" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="158" x="3412" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="game.agri.resources.Rock" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/resources/Rock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="95" x="2504" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="game.agri.Player" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="198" x="2247" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="game.agri.actions.random.FirstActionRandom" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/random/FirstActionRandom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="185" x="931" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="game.exceptions.TileAlreadyOccupiedException" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/exceptions/TileAlreadyOccupiedException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="209" x="3390" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="game.war.tiles.Mountain" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/Mountain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="141" x="323" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="game.Board" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="187" x="3412" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="game.war.Board" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="158" x="3610" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="game.gui.GUIElement" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/gui/GUIElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="147" x="2298" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="game.war.actions.random.PayArmyAleatoire" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/random/PayArmyAleatoire.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="181" x="2077" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="game.agri.tiles.Forest" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/Forest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="133" x="1568" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="game.war.resources.Gold" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Gold.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="94" x="2639" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="game.war.resources.Rock" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Rock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="94" x="2773" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="game.war.resources.Food" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Food.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="94" x="2907" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="game.war.Army" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/Army.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="122" x="3580" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="game.Tile" project="l2s4-projet-2021" file="/l2s4-projet-2021/src/game/Tile.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="196" x="3176" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="game.war.WarGameApp" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/WarGameApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="1024" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="game.war.WarLeaderboard" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/WarLeaderboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="235" x="410" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="game.agri.resources.Sand" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/resources/Sand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="95" x="3041" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="game.agri.tiles.Ocean" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/Ocean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="152" x="1741" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="game.war.actions.PayArmy" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/actions/PayArmy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="171" x="1865" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="game.agri.resources.Wood" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/resources/Wood.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="95" x="3176" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="game.war.modes.Random" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/modes/Random.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="130" x="1549" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="game.exceptions.CanNotPlayMoreRoundsException" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/exceptions/CanNotPlayMoreRoundsException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="225" x="1368" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="game.agri.resources.Corn" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/resources/Corn.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="95" x="3311" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="game.war.tiles.Desert" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/Desert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="141" x="504" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="game.agri.actions.manual.PayWorkerManual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/manual/PayWorkerManual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="181" x="1397" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="game.war.tiles.Plain" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/Plain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="128" x="685" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="game.war.modes.Manual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/modes/Manual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="130" x="1719" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="game.war.resources.Wood" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/resources/Wood.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="94" x="3446" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="game.Game" project="l2s4-projet-2021" file="/l2s4-projet-2021/src/game/Game.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="222" x="2485" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="game.Player" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="243" x="2485" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="game.agri.actions.manual.FirstActionManual" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/manual/FirstActionManual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="180" x="1156" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="game.agri.tiles.Plain" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/tiles/Plain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="128" x="1933" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="game.war.tiles.Ocean" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/Ocean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="853" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="game.war.Player" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="189" x="2485" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="game.war.tiles.Forest" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/tiles/Forest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="133" x="1056" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="game.agri.Worker" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/Worker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="122" x="3742" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="game.TileRepresentation" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/TileRepresentation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="174" x="3198" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="game.Resource" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/Resource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="199" x="2773" y="2047"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="game.agri.Game" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="175" x="2983" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="game.exceptions.CanNotDoActionException" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/exceptions/CanNotDoActionException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="188" x="3515" y="239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="game.war.exceptions.SoldiersWillExceedMaxException" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/war/exceptions/SoldiersWillExceedMaxException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="220" x="3639" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="game.agri.actions.random.PayWorkerRandom" project="l2s4-projet-2021" 
+    file="/l2s4-projet-2021/src/game/agri/actions/random/PayWorkerRandom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="186" x="1618" y="977"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="73">    
+    <bendpoint x="673" y="977"/>    
+    <bendpoint x="673" y="1584"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="74" name="tile"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="59"/>  
+  </generalization>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="79">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="80" name="map"/>      
+      <multiplicity id="81" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="83">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="84" name="nextAction"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="69"/>  
+  </generalization>  
+  <generalization id="87">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <generalization id="88">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="89">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="69"/>  
+  </generalization>  
+  <association id="90">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="91" name="board"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="94" name="diffTypeOfTiles"/>      
+      <multiplicity id="95" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="98">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="99" name="tile"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="102">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="103">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="106">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <association id="107">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="108" name="pos"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="110">    
+    <bendpoint x="2737" y="568"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="111" name="board"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="113">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="114">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <association id="117">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="118" name="game"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="58" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <association id="121">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="122" name="game"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="58" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="124">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="125">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <generalization id="126">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="127">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <association id="128">    
+    <bendpoint x="1366" y="977"/>    
+    <bendpoint x="1366" y="1584"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="129" name="tile"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <association id="132">    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="133" name="game"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="58" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="135">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="43"/>  
+  </generalization>  
+  <generalization id="136">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <association id="138">    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="139" name="mode"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="141">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="142">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <generalization id="143">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="144">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="145">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="146">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="59"/>  
+  </generalization>  
+  <generalization id="147">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="148">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="149">    
+    <bendpoint x="2704" y="1584"/>    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="150" name="resources"/>      
+      <multiplicity id="151" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="152">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="153" name="occupant"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="155">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="156" name="res"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="158">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="159">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="160">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="161">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="162">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <association id="163">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="164" name="board"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="166">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="167">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="168">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="169">    
+    <bendpoint x="2794" y="1584"/>    
+    <end type="SOURCE" refId="59" navigable="false">      
+      <attribute id="170" name="characters"/>      
+      <multiplicity id="171" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="173" name="EmptyTiles"/>      
+      <multiplicity id="174" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="175">    
+    <bendpoint x="2164" y="568"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="176" name="player"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="178">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <generalization id="179">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="180">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="181">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <generalization id="182">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <association id="183">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="184" name="tileRep"/>      
+      <multiplicity id="185" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="186">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="187" name="players"/>      
+      <multiplicity id="188" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="189">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="190">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <generalization id="191">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="43"/>  
+  </generalization>  
+  <association id="192">    
+    <bendpoint x="2815" y="1584"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="193" name="owner"/>      
+      <multiplicity id="194" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <association id="195">    
+    <bendpoint x="1834" y="977"/>    
+    <bendpoint x="1834" y="568"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="196" name="actions"/>      
+      <multiplicity id="197" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="198">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="199">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="200" name="guiElements"/>      
+      <multiplicity id="201" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="false"/>  
+  </association>  
+  <generalization id="202">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="false"/>
+</class-diagram>
