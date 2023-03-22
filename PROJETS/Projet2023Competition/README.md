@@ -25,9 +25,9 @@ Journal de bord (Semaine) : [1](#semaine-1) [2](#semaine-2) [3](#semaine-3) [4](
 ---
 # Rubrique HowTo
 
-### Récupération des sources du projet
+### Récupération des sources du projet 
 Depuis votre terminal, veuillez exécuter la commande suivante :
-- `git clone git@gitlab-etu.fil.univ-lille.fr:patricia.totoummandoum.etu/projet_coo_totoum_ishimwe_diallo.git`
+- `git clone [mettre ici le lien du dépôt]`
 
 
 **Ensuite, Veuillez exécuter les commandes suivantes dans un terminal à partir du dossier racine du projet :**
@@ -132,7 +132,7 @@ Lecture, compréhension du sujet et discussion sur nos différents choix de conc
 
 ### Explication des choix de conception :
 
-**Patricia :**
+
 - Des difficultés pour comprendre ce que représente un match. Pour respecter le principe OCP, Match est une classe abstraite, afin de pouvoir définir plus tard de nouveaux types de matchs.
 - Dans ma première conception, un joueur était défini par son nom et son nombre de points. Problème : comment faire si le compétiteur participe à plus d'une compétition? Solution retenue : on crée une table de hachage qui répertorie le nombre de points de chaque joueur. Les points seront gérés par la compétition.
 - La méthode play(List<Competitor>) de la classe Tournament a d'abord été faite récursivement. Je crée une liste de joueurs qui va contenir les gagnants de chaque tour. Je leur fais jouer un premier tour. Puis récursivement, j'invoque la méthode play(List<Competitor>) sur la liste de gagnants du tour précédent. Cette version fonctionnait mais était longue et comportait une cascade de "if".
@@ -140,10 +140,10 @@ Ensuite j'ai fait une nouvelle version avec une boucle "Tant que" qui remplaçai
 La version finale respecte les principes de responsabilité unique et KISS. J'ai délégué certains comportements à d'autres méthodes. Ce qui rend le code plus compréhensible, facilement extensible.
 - Pour les classes de tests, j'ai fait des Mock(MockLeague, MockTournament et MockMatch). Ensuite j'ai fait les tests des classes correspondantes, soit les tests des sous-classes de Competition. Cependant, le code de MockLeague et MockTournament est le même à un détail près. Ce qui fait une répétition de code et ne respecte pas le principe DRY. J'ai ensuite essayé de factoriser mon code en faisant un MockCompetition. Mais c'était difficile après de trouver les liens d'héritages entre les classes de tests ainsi que ce qu'il fallait tester. Dans les versions suivantes, avec la pratique, il n'y aura plus cette répétition de code.
 
-**Gabriella :**
+
 - Au début difficulté à faire les tests de Tournament en utilisant un mock. Donc j'ai d'abord fait sans. Mais j'ai vu que les tests n'étaient pas correctement faits et ont par la suite été corrigés en utilisant un mock
 
-**Mamadou :**
+
 - Au prealable souci d'execution des tests pour probleme de configuration, et incomprehension du rôle le la classe Match.
 
 
